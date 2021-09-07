@@ -53,10 +53,14 @@ class Frontend extends CI_Controller
 
     function timeAndDistance()
     {
+        $this->load->view('includes/header');
         $this->load->view('customer_care/timeAndDistance');
+        $this->load->view('includes/footer');
     }
     function pickupRequest()
     {
+        $this->load->view('includes/header');
         $this->load->view('customer_care/pickupRequest');
+        $this->load->view('includes/footer');
     }
 }

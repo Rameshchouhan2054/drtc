@@ -55,3 +55,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['aboutUs'] = 'Frontend/Frontend/aboutUs';
 $route['our_services'] = 'Frontend/Frontend/our_services';
 $route['timeAndDistance'] = 'Frontend/Frontend/timeAndDistance';
+$route['pickupRequest'] = 'Frontend/Frontend/pickupRequest';

@@ -1,4 +1,3 @@
-<?php include 'includes/header.php'; ?>
 <link rel="stylesheet" href="assets/css/post-413cda9.css?ver=1626617656">
 <div id="content" class="site-content">
     <div class="ast-container">
@@ -278,7 +277,6 @@
         </div><!-- #primary -->
     </div> <!-- ast-container -->
 </div><!-- #content -->
-<?php include 'includes/footer.php'; ?>
-<script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
-<script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script>
+<!-- <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script> -->
+<!-- <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script> -->
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>
