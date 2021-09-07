@@ -132,7 +132,7 @@
                                                             <li id="menu-item-1550" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1550">
                                                                 <a href="networkMap" class="menu-link">Network Map</a></li>
                                                             <li id="menu-item-1547" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1547">
-                                                                <a href="partner-us/index.html" class="menu-link">Partner Us<span role="presentation" class="dropdown-menu-toggle" tabindex="0"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                                                                <a href="partnerUs" class="menu-link">Partner Us<span role="presentation" class="dropdown-menu-toggle" tabindex="0"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                                                                                 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                                                                             </svg></span></span></a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu
                                                                         Toggle</span><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
@@ -140,24 +140,24 @@
                                                                         </svg></span></button>
                                                                 <ul class="sub-menu">
                                                                     <li id="menu-item-1548" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1548">
-                                                                        <a href="associate-us/index.html" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                                                                        <a href="associateUs" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                                                                                     <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                                                                                 </svg></span>Associate Us</a>
                                                                     </li>
                                                                     <li id="menu-item-1549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549">
-                                                                        <a href="attach-vehicle/index.html" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                                                                        <a href="attachVehicle" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                                                                                     <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                                                                                 </svg></span>Attach Vehicle</a>
                                                                     </li>
                                                                     <li id="menu-item-1650" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1650">
-                                                                        <a href="career/index.html" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
+                                                                        <a href="career" class="menu-link"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                                                                                     <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                                                                                 </svg></span>Career</a>
                                                                     </li>
                                                                 </ul>
                                                             </li>
                                                             <li id="menu-item-1585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1585">
-                                                                <a href="contact-us-2/index.html" class="menu-link">Contact Us</a>
+                                                                <a href="contactUs" class="menu-link">Contact Us</a>
                                                             </li>
                                                         </ul>
                                                     </div>

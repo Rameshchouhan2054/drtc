@@ -57,3 +57,5 @@ $route['our_services'] = 'Frontend/Frontend/our_services';
 $route['timeAndDistance'] = 'Frontend/Frontend/timeAndDistance';
 $route['pickupRequest'] = 'Frontend/Frontend/pickupRequest';
 $route['networkMap'] = 'Frontend/Frontend/networkMap';
+$route['associateUs'] = 'Frontend/Frontend/associateUs';
+$route['attachVehicle'] = 'Frontend/Frontend/attachVehicle';

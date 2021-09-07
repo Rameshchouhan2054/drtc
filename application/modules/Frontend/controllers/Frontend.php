@@ -37,7 +37,6 @@ class Frontend extends CI_Controller
     public function index()
     {
         $this->load->view('index');
-        //$this->load->view('frontend/dashboard');
     }
     function aboutUs()
     {
@@ -50,7 +49,12 @@ class Frontend extends CI_Controller
 
         $this->load->view('our_services');
     }
-
+    function customer_care()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('customer_care/index');
+        $this->load->view('includes/footer');
+    }
     function timeAndDistance()
     {
         $this->load->view('includes/header');
@@ -66,5 +70,17 @@ class Frontend extends CI_Controller
     function networkMap()
     {
         $this->load->view('networkMap');
+    }
+    function associateUs()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('partnerUs/associateUs');
+        $this->load->view('includes/footer');
+    }
+    function attachVehicle()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('partnerUs/attachVehicle');
+        $this->load->view('includes/footer');
     }
 }
