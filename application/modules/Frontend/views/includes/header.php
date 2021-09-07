@@ -86,8 +86,7 @@
                                             <span class="site-logo-img"><a href="https://springdemo.tech/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png 268w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                             <div class="ast-site-title-wrap">
                                                 <span class="site-title" itemprop="name">
-                                                    <a href="https://springdemo.tech/" rel="home" itemprop="url">
-                                                        both modified: application/modules/Frontend/views/includes/header.php </a>
+                                                    <a href="https://springdemo.tech/" rel="home" itemprop="url"></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -193,7 +192,7 @@
                                 <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
                                         <span class="site-logo-img"><a href="https://springdemo.tech/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png 268w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
-                                        both modified: application/modules/Frontend/views/includes/header.php <div class="ast-site-title-wrap">
+                                        <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
                                                 <a href="https://springdemo.tech/" rel="home" itemprop="url">
 
