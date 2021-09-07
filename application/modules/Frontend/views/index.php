@@ -274,7 +274,7 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="96" height="96"
-                                                                            src="img/setting-icon.png"
+                                                                            src="assets/img/setting-icon.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -308,7 +308,8 @@
                                                                     data-id="6a90f1a" data-element_type="widget"
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="img/rotor.png"
+                                                                        <img width="96" height="96"
+                                                                            src="assets/img/rotor.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -342,7 +343,8 @@
                                                                     data-id="65eb4f6" data-element_type="widget"
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="img/shocks.png"
+                                                                        <img width="96" height="96"
+                                                                            src="assets/img/shocks.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -385,7 +387,7 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="96" height="96"
-                                                                            src="img/system-inside.png"
+                                                                            src="assets/img/system-inside.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -420,7 +422,7 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="96" height="96"
-                                                                            src="img/ac-repairs.png"
+                                                                            src="assets/img/ac-repairs.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -456,7 +458,7 @@
                                                                     data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
                                                                         <img width="96" height="96"
-                                                                            src="img/tyre-service.png"
+                                                                            src="assets/img/tyre-service.png"
                                                                             class="attachment-large size-large" alt=""
                                                                             loading="lazy" />
                                                                     </div>
@@ -896,7 +898,7 @@
                                                                                     <div
                                                                                         class="elementor-testimonial-image">
                                                                                         <img width="100" height="100"
-                                                                                            src="img/ava-2.jpg"
+                                                                                            src="assets/img/ava-2.jpg"
                                                                                             class="attachment-full size-full"
                                                                                             alt="" loading="lazy" />
                                                                                     </div>
@@ -959,7 +961,7 @@
                                                                                     <div
                                                                                         class="elementor-testimonial-image">
                                                                                         <img width="100" height="100"
-                                                                                            src="img/ava-1.jpg"
+                                                                                            src="assets/img/ava-1.jpg"
                                                                                             class="attachment-full size-full"
                                                                                             alt="" loading="lazy" />
                                                                                     </div>
