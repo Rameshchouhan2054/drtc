@@ -108,7 +108,7 @@
                                                                     Services</a>
                                                             </li>
                                                             <li id="menu-item-1037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1037">
-                                                                <a href="customer-care/" class="menu-link">Customer
+                                                                <a href="customerCare" class="menu-link">Customer
                                                                     Care<span role="presentation" class="dropdown-menu-toggle" tabindex="0"><span class="ast-icon icon-arrow"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="26px" height="16.043px" viewBox="57 35.171 26 16.043" enable-background="new 57 35.171 26 16.043" xml:space="preserve">
                                                                                 <path d="M57.5,38.193l12.5,12.5l12.5-12.5l-2.5-2.5l-10,10l-10-10L57.5,38.193z" />
                                                                             </svg></span></span></a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu

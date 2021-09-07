@@ -83,4 +83,11 @@ class Frontend extends CI_Controller
         $this->load->view('partnerUs/attachVehicle');
         $this->load->view('includes/footer');
     }
+
+    function career()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('partnerUs/career');
+        $this->load->view('includes/footer');
+    }
 }
