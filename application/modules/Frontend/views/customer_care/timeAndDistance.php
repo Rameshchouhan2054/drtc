@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include '../includes/header.php'; ?>
 <link rel="stylesheet" href="assets/css/post-413cda9.css?ver=1626617656">
 <div id="content" class="site-content">
     <div class="ast-container">

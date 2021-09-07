@@ -41,7 +41,22 @@ class Frontend extends CI_Controller
     }
     function aboutUs()
     {
-        echo "hii";
+
         $this->load->view('aboutUs');
+    }
+    function our_services()
+    {
+        $this->load->helper('url');
+
+        $this->load->view('our_services');
+    }
+
+    function timeAndDistance()
+    {
+        $this->load->view('customer_care/timeAndDistance');
+    }
+    function pickupRequest()
+    {
+        $this->load->view('customer_care/pickupRequest');
     }
 }
