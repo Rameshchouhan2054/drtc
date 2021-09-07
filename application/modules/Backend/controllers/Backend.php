@@ -14,7 +14,7 @@
  *
  */
 
-class Backend extends BackendController
+class Backend extends CI_Controller
 {
     //
     public $CI;
@@ -46,6 +46,7 @@ class Backend extends BackendController
     public function index()
     {
         // Example
+        echo 'hello';
         //$this->load->view('backend/dashboard');
     }
 }
