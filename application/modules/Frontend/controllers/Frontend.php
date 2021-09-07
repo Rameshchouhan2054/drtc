@@ -63,4 +63,8 @@ class Frontend extends CI_Controller
         $this->load->view('customer_care/pickupRequest');
         $this->load->view('includes/footer');
     }
+    function networkMap()
+    {
+        $this->load->view('networkMap');
+    }
 }

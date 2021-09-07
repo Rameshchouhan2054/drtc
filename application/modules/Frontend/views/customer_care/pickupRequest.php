@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/post-413cda9.css?ver=1626617656">
+<link rel="stylesheet" href="assets/css/post-976.css">
 <div id="content" class="site-content">
     <div class="ast-container">
         <div id="primary" class="content-area primary">
