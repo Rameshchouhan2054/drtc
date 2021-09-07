@@ -30,4 +30,8 @@ class Home extends CI_Controller
     {
         $this->load->view('customer_care/timeAndDistance');
     }
+    function pickupRequest()
+    {
+        $this->load->view('customer_care/pickupRequest');
+    }
 }
