@@ -57,3 +57,4 @@ $route['aboutUs'] = 'Frontend/Home/aboutUs';
 $route['our_services'] = 'Frontend/Home/our_services';
 $route['timeAndDistance'] = 'Frontend/Home/timeAndDistance';
 $route['pickupRequest'] = 'Frontend/Home/pickupRequest';
+// $route['networkMap'] ='Frontend/Home/'
