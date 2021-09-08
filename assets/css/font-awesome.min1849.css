@@ -4,8 +4,8 @@
  */
 @font-face {
     font-family: 'FontAwesome';
-    src: url('https://springdemo.tech/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot?v=4.7.0');
-    src: url('https://springdemo.tech/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://springdemo.tech/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://springdemo.tech/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://springdemo.tech/wp-content/plugins/elementor/assets/lib/font-awesome/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular') format('svg');
+    src: url('http://localhost/work/drtc/assets/fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('http://localhost/work/drtc/assets/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('http://localhost/work/drtc/assets/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('http://localhost/work/drtc/assets/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('http://localhost/work/drtc/assets/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular') format('svg');
     font-weight: normal;
     font-style: normal
 }

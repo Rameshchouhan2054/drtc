@@ -71,6 +71,12 @@ class Frontend extends CI_Controller
     {
         $this->load->view('networkMap');
     }
+    function partnerUs()
+    {
+        $this->load->view('includes/header');
+        $this->load->view('partnerUs/index');
+        $this->load->view('includes/footer');
+    }
     function associateUs()
     {
         $this->load->view('includes/header');
@@ -89,5 +95,9 @@ class Frontend extends CI_Controller
         $this->load->view('includes/header');
         $this->load->view('partnerUs/career');
         $this->load->view('includes/footer');
+    }
+    function contactUs()
+    {
+        $this->load->view('contactUs');
     }
 }

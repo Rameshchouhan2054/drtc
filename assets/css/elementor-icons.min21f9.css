@@ -1,8 +1,8 @@
 /*! elementor-icons - v5.11.0 - 01-03-2021 */
 @font-face {
     font-family: eicons;
-    src: url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.11.0);
-    src: url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.11.0#iefix) format("embedded-opentype"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.11.0) format("woff2"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.11.0) format("woff"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.11.0) format("truetype"), url(../fonts/eiconsa481.svg?5.11.0#eicon) format("svg");
+    src: url(http://localhost/work/drtc/assets/fonts/eicons.eot?5.11.0);
+    src: url(http://localhost/work/drtc/assets/fonts/eicons.eot?5.11.0#iefix) format("embedded-opentype"), url(http://localhost/work/drtc/assets/fonts/eicons.woff2?5.11.0) format("woff2"), url(http://localhost/work/drtc/assets/fonts/eicons.woff?5.11.0) format("woff"), url(http://localhost/work/drtc/assets/fonts/eicons.ttf?5.11.0) format("truetype"), url(../fonts/eiconsa481.svg?5.11.0#eicon) format("svg");
     font-weight: 400;
     font-style: normal
 }

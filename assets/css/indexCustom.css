@@ -14,8 +14,8 @@ img.emoji {
 /* #elementor-frontend-inline-css, */
 @font-face {
 	font-family: eicons;
-	src: url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0);
-	src: url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.10.0) format("woff2"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff?5.10.0) format("woff"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf?5.10.0) format("truetype"), url(https://springdemo.tech/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.svg?5.10.0#eicon) format("svg");
+	src: url(http://localhost/work/drtc/assets/fonts/eicons.eot?5.10.0);
+	src: url(http://localhost/work/drtc/assets/fonts/eicons.eot?5.10.0#iefix) format("embedded-opentype"), url(http://localhost/work/drtc/assets/fonts/eicons.woff2?5.10.0) format("woff2"), url(http://localhost/work/drtc/assets/fonts/eicons.woff2?5.10.0) format("woff"), url(http://localhost/work/drtc/assets/fonts/eicons.woff2?5.10.0) format("truetype"), url(http://localhost/work/drtc/assets/fonts/eicons.svg?5.10.0#eicon) format("svg");
 	font-weight: 400;
 	font-style: normal
 }
@@ -1807,9 +1807,9 @@ sss #astra-footer-menu>.menu-item>.menu-link {
 .sticky+.content {
     padding-top: 102px;
 } */
-.ast-builder-grid-row {
+/* .ast-builder-grid-row {
 	margin-left: 160px;
-}
+} */
 
 #mystickymenu,
 #mysticky-nav {

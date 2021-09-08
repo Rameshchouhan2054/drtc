@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="gmpg.org/xfn/11.html">
 
-    <title>Duplicated: Home Page &#8211; [#7]</title>
+    <title>DRTC</title>
     <meta name='robots' content='max-image-preview:large' />
     <link rel='dns-prefetch' href='s.w.org/index.html' />
     <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="feed/index.html" />
@@ -18,7 +18,7 @@
     <script src="<?php echo base_url(); ?>assets/js/indexCustom.js"></script>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/indexCustom.css">
     <link rel='stylesheet' id='elementor-frontend-css' href='<?php echo base_url(); ?>assets/css/frontend.min2072.css?ver=3.2.5' media='all' />
-    <link rel='stylesheet' id='elementor-post-413-css' href='<?php echo base_url(); ?>assets/css/post-413cda9.css?ver=1626617656' media='all' />
+    <link rel='stylesheet' id='elementor-post-413-css' href='<?php echo base_url(); ?>assets/css/post-413.css?ver=1626617656' media='all' />
     <link rel='stylesheet' id='chaty-front-css-css' href='<?php echo base_url(); ?>assets/css/chaty-front.min283e.css?ver=1625861137' media='all' />
     <link rel='stylesheet' id='astra-theme-css-css' href='<?php echo base_url(); ?>assets/css/main.min9bf7.css?ver=3.4.6' media='all' />
     <link rel='stylesheet' id='wp-block-library-css' href='<?php echo base_url(); ?>assets/css/style.min9f31.css?ver=5.7.2' media='all' />
@@ -34,7 +34,7 @@
     <link rel='stylesheet' id='she-header-style-css' href='<?php echo base_url(); ?>assets/css/she-header-style370e.css?ver=1.4.3' media='all' />
     <link rel='stylesheet' id='elementskit-css-widgetarea-control-editor-css' href='<?php echo base_url(); ?>assets/css/widgetarea-editorc936.css?ver=2.3.1.1' media='all' />
     <link rel='stylesheet' id='elementor-global-css' href='<?php echo base_url(); ?>assets/css/globalfd42.css?ver=1626617657' media='all' />
-    <link rel='stylesheet' id='elementor-post-1456-css' href='<?php echo base_url(); ?>assets/css/post-1456c5d2.css?ver=1627001005' media='all' />
+    <link rel='stylesheet' id='elementor-post-1456-css' href='<?php echo base_url(); ?>assets/css/post-1456.css?ver=1627001005' media='all' />
     <link rel='stylesheet' id='ekit-widget-styles-css' href='<?php echo base_url(); ?>assets/css/widget-stylesc936.css?ver=2.3.1.1' media='all' />
     <link rel='stylesheet' id='ekit-responsive-css' href='<?php echo base_url(); ?>assets/css/responsivec936.css?ver=2.3.1.1' media='all' />
     <link rel='stylesheet' id='happy-icons-css' href='<?php echo base_url(); ?>assets/css/style.min08eb.css?ver=2.27.0' media='all' />
@@ -83,10 +83,10 @@
                                 <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                     <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                         <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                            <span class="site-logo-img"><a href="https://springdemo.tech/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png 268w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                            <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2-268x42.png 268w, http://localhost/work/drtc/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, http://localhost/work/drtc/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                             <div class="ast-site-title-wrap">
                                                 <span class="site-title" itemprop="name">
-                                                    <a href="https://springdemo.tech/" rel="home" itemprop="url"></a>
+                                                    <a href="http://localhost/work/drtc/" rel="home" itemprop="url"></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -191,10 +191,10 @@
                             <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                 <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                        <span class="site-logo-img"><a href="https://springdemo.tech/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png 268w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, https://springdemo.tech/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                        <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2-268x42.png 268w, http://localhost/work/drtc/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, http://localhost/work/drtc/wp-content/uploads/2021/05/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
-                                                <a href="https://springdemo.tech/" rel="home" itemprop="url">
+                                                <a href="http://localhost/work/drtc/" rel="home" itemprop="url">
 
                                                 </a>
                                             </span>
@@ -231,36 +231,35 @@
                                 <nav class="site-navigation" id="site-navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope" class="ast-flex-grow-1 navigation-accessibility" aria-label="Site Navigation">
                                     <div id="ast-hf-mobile-menu" class="main-navigation">
                                         <ul class="main-header-menu ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-fade  stack-on-mobile">
-                                            <li class="page_item page-item-151 menu-item"><a href="https://springdemo.tech/about-us/" class="menu-link">About
+                                            <li class="page_item page-item-151 menu-item"><a href="http://localhost/work/drtc/aboutUs/" class="menu-link">About
                                                     Us</a></li>
-                                            <li class="page_item page-item-1417 menu-item"><a href="associate-us/index.html" class="menu-link">Associate
+                                            <li class="page_item page-item-1417 menu-item"><a href="associateUs" class="menu-link">Associate
                                                     Us</a></li>
-                                            <li class="page_item page-item-1451 menu-item"><a href="attach-vehicle/index.html" class="menu-link">Attach
+                                            <li class="page_item page-item-1451 menu-item"><a href="attachVehicle" class="menu-link">Attach
                                                     Vehicle</a></li>
-                                            <li class="page_item page-item-1637 menu-item"><a href="career/index.html" class="menu-link">Career</a></li>
-                                            <li class="page_item page-item-1569 menu-item"><a href="contact-us-2/index.html" class="menu-link">Contact
+                                            <li class="page_item page-item-1637 menu-item"><a href="career" class="menu-link">Career</a></li>
+                                            <li class="page_item page-item-1569 menu-item"><a href="contactUs" class="menu-link">Contact
                                                     Us</a></li>
-                                            <li class="page_item page-item-994 menu-item"><a href="customer-care/index.html" class="menu-link">Customer
+                                            <li class="page_item page-item-994 menu-item"><a href="customerCare" class="menu-link">Customer
                                                     Care</a></li>
                                             <li class="page_item page-item-1456 current-menu-item menu-item current-menu-item">
-                                                <a href="index.html" class="menu-link">Duplicated: Home Page &#8211;
-                                                    [#7]</a>
+                                                <a href="index.html" class="menu-link">DRTC</a>
                                             </li>
-                                            <li class="page_item page-item-1057 menu-item"><a href="https://springdemo.tech/haryana-contacts/" class="menu-link">Haryana Contacts</a></li>
-                                            <li class="page_item page-item-7 menu-item"><a href="https://springdemo.tech/" class="menu-link">Home Page</a>
+                                            <li class="page_item page-item-1057 menu-item"><a href="http://localhost/work/drtc/haryana-contacts/" class="menu-link">Haryana Contacts</a></li>
+                                            <li class="page_item page-item-7 menu-item"><a href="http://localhost/work/drtc/" class="menu-link">Home Page</a>
                                             </li>
-                                            <li class="page_item page-item-1038 menu-item"><a href="network-map/index.html" class="menu-link">Network
+                                            <li class="page_item page-item-1038 menu-item"><a href="networkMap" class="menu-link">Network
                                                     Map</a></li>
-                                            <li class="page_item page-item-328 menu-item"><a href="our-services-2/index.html" class="menu-link">Our
+                                            <li class="page_item page-item-328 menu-item"><a href="our_services" class="menu-link">Our
                                                     Services</a></li>
-                                            <li class="page_item page-item-1545 menu-item"><a href="partner-us/index.html" class="menu-link">Partner Us</a>
+                                            <li class="page_item page-item-1545 menu-item"><a href="partnerUs" class="menu-link">Partner Us</a>
                                             </li>
-                                            <li class="page_item page-item-976 menu-item"><a href="pickup-request/index.html" class="menu-link">Pickup
+                                            <li class="page_item page-item-976 menu-item"><a href="pickupRequest" class="menu-link">Pickup
                                                     Request</a></li>
-                                            <li class="page_item page-item-995 menu-item"><a href="https://springdemo.tech/tax-forms/" class="menu-link">Tax
+                                            <li class="page_item page-item-995 menu-item"><a href="http://localhost/work/drtc/tax-forms/" class="menu-link">Tax
                                                     Forms</a></li>
-                                            <li class="page_item page-item-943 menu-item"><a href="time-and-distancecalculator/index.html" class="menu-link">Time
-                                                    &#038; Distance Calculator</a></li>
+                                            <li class="page_item page-item-943 menu-item"><a href="timeAndDistance" class="menu-link">Time
+                                                    And Distance Calculator</a></li>
                                         </ul>
                                     </div>
                                 </nav>
