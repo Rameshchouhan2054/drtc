@@ -46,7 +46,7 @@ class Backend extends CI_Controller
     public function index()
     {
         // Example
-        echo 'hello';
+        // echo 'hello';
         //$this->load->view('backend/dashboard');
     }
 }

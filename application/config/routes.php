@@ -60,4 +60,10 @@ $route['pickupRequest'] = 'Frontend/Frontend/pickupRequest';
 
 
 //BACKEND ROUTES
-$route['admin']='Backend/Backend/index';
+$route['admin']='Backend/admin/AdminDashboard/index';
+$route['login']='Backend/admin/AdminLoginController/showLoginForm';
+$route['logout']='Backend/admin/AdminLogoutController/logout';
+$route['Registration']='Backend/admin/AdminLoginController/index';
+$route['request']='Backend/admin/Home/Request';
+$route['message']='Backend/admin/Home/Message_Request';
+$route['peckup']='Backend/admin/Home/Pickup_Request';
