@@ -490,7 +490,7 @@ include 'includes/header.php';
                                                     <div class="elementor-widget-container">
                                                         <div class="elementor-shortcode">
                                                             <div class="wpforms-container wpforms-container-full" id="wpforms-5">
-<<<<<<< HEAD
+
                                                                 <form id="" class="wpforms-validate wpforms-form" data-formid="5" method="post"  action="<?php echo base_url()?>requestcall" >
                                                                     <noscript class="wpforms-error-noscript">Please
                                                                         enable JavaScript in your browser to
