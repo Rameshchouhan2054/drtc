@@ -491,10 +491,7 @@ include 'includes/header.php';
                                                         <div class="elementor-shortcode">
                                                             <div class="wpforms-container wpforms-container-full" id="wpforms-5">
 <<<<<<< HEAD
-                                                                <form id="wpforms-form-5" class="wpforms-validate wpforms-form" data-formid="5" method="post"  action="<?php echo base_url()?>requestcall" >
-=======
-                                                                <form id="wpforms-form-5" class="wpforms-validate wpforms-form" data-formid="5" method="post" enctype="multipart/form-data" action="<?php echo base_url() ?>drtc" data-token="e0d9cb18a0c03987b66546af0f7066f5">
->>>>>>> 74b8781db0db9d46eb8ad420be9efbf9f282373b
+                                                                <form id="" class="wpforms-validate wpforms-form" data-formid="5" method="post"  action="<?php echo base_url()?>requestcall" >
                                                                     <noscript class="wpforms-error-noscript">Please
                                                                         enable JavaScript in your browser to
                                                                         complete this form.</noscript>
@@ -823,3 +820,4 @@ include 'includes/header.php';
     </div> <!-- ast-container -->
 </div><!-- #content -->
 <?php include 'includes/footer.php'; ?>
+                                                                
