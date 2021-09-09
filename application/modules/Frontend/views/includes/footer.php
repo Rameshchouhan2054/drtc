@@ -157,9 +157,6 @@
 <script src='<?php echo base_url(); ?>assets/js/frontend.min9bf7.js?ver=3.4.6' id='astra-theme-js-js'></script>
 <script src='<?php echo base_url(); ?>assets/js/detectmobilebrowser91ee.js?ver=2.5.3' id='detectmobilebrowser-js'>
 </script>
-<!-- <script src='<?php echo base_url(); ?>assets/js/frontend.min9bf7.js?ver=3.4.6' id='astra-theme-js-js'></script> -->
-<script src='<?php echo base_url(); ?>assets/js/detectmobilebrowser91ee.js?ver=2.5.3' id='detectmobilebrowser-js'>
-</script>
 <script src='<?php echo base_url(); ?>assets/js/widget-scriptsc936.js?ver=2.3.1.1' id='ekit-widget-scripts-js'></script>
 <script src='<?php echo base_url(); ?>assets/js/happy-addons.min08eb.js?ver=2.27.0' id='happy-elementor-addons-js'>
 </script>
