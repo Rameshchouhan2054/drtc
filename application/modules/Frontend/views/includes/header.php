@@ -5,6 +5,7 @@
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +40,7 @@
     <link rel='stylesheet' id='ekit-responsive-css' href='<?php echo base_url(); ?>assets/css/responsivec936.css?ver=2.3.1.1' media='all' />
     <link rel='stylesheet' id='happy-icons-css' href='<?php echo base_url(); ?>assets/css/style.min08eb.css?ver=2.27.0' media='all' />
     <link rel='stylesheet' id='font-awesome-css' href='<?php echo base_url(); ?>assets/css/font-awesome.min1849.css?ver=4.7.0' media='all' />
-    <!-- <link rel='stylesheet' id='happy-elementor-addons-1456-css' href='<?php echo base_url(); ?>assets/css/ha-1456f4dc.css?ver=2.27.0.1625860453' media='all' /> -->
+    <link rel='stylesheet' id='happy-elementor-addons-1456-css' href='<?php echo base_url(); ?>assets/css/ha-1456f4dc.css?ver=2.27.0.1625860453' media='all' />
     <link rel='stylesheet' id='google-fonts-1-css' href='<?php echo base_url(); ?>assets/css/cssfa9f.css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNunito%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=5.7.2' media='all' />
     <link rel='stylesheet' id='elementor-icons-shared-1-css' href='<?php echo base_url(); ?>assets/css/style.min08eb.css?ver=2.27.0' media='all' />
     <link rel='stylesheet' id='elementor-icons-happy-icons-css' href='<?php echo base_url(); ?>assets/css/style.min08eb.css?ver=2.27.0' media='all' />
@@ -70,6 +71,7 @@
     <link rel="alternate" type="application/json+oembed" href="oembed/1.0/embedd9f5.json?url=https%3A%2F%2Fspringdemo.tech%2Fduplicated-home-page-7%2F" />
     <link rel="alternate" type="text/xml+oembed" href="oembed/1.0/embed99bd?url=https%3A%2F%2Fspringdemo.tech%2Fduplicated-home-page-7%2F&amp;format=xml" />
 </head>
+<!-- -->
 
 <body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="page-template-default page page-id-1456 wp-custom-logo ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-desktop ast-page-builder-template ast-no-sidebar astra-3.4.6 elementor-default elementor-kit-6 elementor-page elementor-page-1456">
     <div class="hfeed site" id="page">
