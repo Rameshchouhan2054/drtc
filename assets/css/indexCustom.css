@@ -1782,8 +1782,8 @@ sss #astra-footer-menu>.menu-item>.menu-link {
 }
 
 body {
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 !important;
+	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .top-container {
