@@ -52,6 +52,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'Frontend';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+$route['drtc']='Frontend/Frontend/index';
 $route['aboutUs'] = 'Frontend/Frontend/aboutUs';
 $route['our_services'] = 'Frontend/Frontend/our_services';
 $route['customerCare'] = 'Frontend/Frontend/customer_care';

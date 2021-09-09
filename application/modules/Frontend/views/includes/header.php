@@ -78,12 +78,12 @@
             <div id="ast-desktop-header" data-toggle-type="dropdown">
                 <div class="ast-main-header-wrap main-header-bar-wrap ">
                     <div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" data-section="section-primary-header-builder">
-                        <div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder">
+                        <div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder" style="max-width: 1240px;">
                             <div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
                                 <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                     <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                         <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                            <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2-268x42.png 268w, http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2-300x47.png 300w, http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                            <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 268w", srcsect="assets/img/cropped-image-removebg-preview-2-300x47.png 300w",srcset="assets/img/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                             <div class="ast-site-title-wrap">
                                                 <span class="site-title" itemprop="name">
                                                     <a href="http://localhost/work/drtc/" rel="home" itemprop="url"></a>
@@ -191,7 +191,7 @@
                             <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                 <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                        <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="wp-content/uploads/2021/05/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2-268x42.png 268w, http://localhost/work/drtc/wp-content/uploads/2021/05/cropped-image-removebg-preview-2-300x47.png 300w, http://localhost/work/drtc/assets/img/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                        <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42"  src="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 150w, <?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 300w,<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
                                                 <a href="http://localhost/work/drtc/" rel="home" itemprop="url">
@@ -243,7 +243,7 @@
                                             <li class="page_item page-item-994 menu-item"><a href="customerCare" class="menu-link">Customer
                                                     Care</a></li>
                                             <li class="page_item page-item-1456 current-menu-item menu-item current-menu-item">
-                                                <a href="index.html" class="menu-link">DRTC</a>
+                                                <a href="drtc" class="menu-link">DRTC</a>
                                             </li>
                                             <li class="page_item page-item-1057 menu-item"><a href="http://localhost/work/drtc/haryana-contacts/" class="menu-link">Haryana Contacts</a></li>
                                             <li class="page_item page-item-7 menu-item"><a href="http://localhost/work/drtc/" class="menu-link">Home Page</a>

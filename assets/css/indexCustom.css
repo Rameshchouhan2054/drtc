@@ -817,7 +817,7 @@ input[type="reset"] {
 	padding-left: 40px;
 	font-family: inherit;
 	font-weight: inherit;
-	line-height: 1;
+	line-height: 1 !important;
 }
 
 button:focus,
@@ -1777,9 +1777,9 @@ sss #astra-footer-menu>.menu-item>.menu-link {
 	}
 }
 
-/* body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    margin: 0 !important;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .top-container {
@@ -1806,7 +1806,7 @@ sss #astra-footer-menu>.menu-item>.menu-link {
 
 .sticky+.content {
     padding-top: 102px;
-} */
+}
 /* .ast-builder-grid-row {
 	margin-left: 160px;
 } */
