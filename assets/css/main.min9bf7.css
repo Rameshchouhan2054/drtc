@@ -1376,7 +1376,7 @@ body {
 }
 
 .submenu-with-border .sub-menu {
-    border-width: 1px;
+    /* border-width: 1px; */
     border-style: solid
 }
 

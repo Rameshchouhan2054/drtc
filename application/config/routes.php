@@ -64,3 +64,6 @@ $route['associateUs'] = 'Frontend/Frontend/associateUs';
 $route['attachVehicle'] = 'Frontend/Frontend/attachVehicle';
 $route['career'] = 'Frontend/Frontend/career';
 $route['contactUs'] = 'Frontend/Frontend/contactUs';
+$route['requestcall']='Frontend/Home/RequestCallBack';
+$route['pickuprequest1']='Frontend/Home/Peckup_Request_Form';
+$route['message']='Frontend/Home/Message';
