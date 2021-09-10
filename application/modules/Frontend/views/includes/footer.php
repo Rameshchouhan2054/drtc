@@ -178,7 +178,7 @@
 <script src='<?php echo base_url(); ?>assets/js/preloaded-modules.min2072.js?ver=3.2.5' id='preloaded-modules-js'>
 </script>
 <script src='<?php echo base_url(); ?>assets/js/underscore.min4511.js?ver=1.8.3' id='underscore-js'></script>
-<!-- <script src='<?php echo base_url(); ?>assets/js/wp-util.min9f31.js?ver=5.7.2' id='wp-util-js'></script> -->
+<script src='<?php echo base_url(); ?>assets/js/wp-util.min9f31.js?ver=5.7.2' id='wp-util-js'></script>
 <script src='<?php echo base_url(); ?>assets/js/frontend.min694e.js?ver=1.6.7' id='wpforms-elementor-js'></script>
 <script src='<?php echo base_url(); ?>assets/js/widgetarea-editorc936.js?ver=2.3.1.1' id='elementskit-js-widgetarea-control-editor-js'></script>
 <script src='<?php echo base_url(); ?>assets/js/jquery.validate.minb3a6.js?ver=1.19.0' id='wpforms-validation-js'>
