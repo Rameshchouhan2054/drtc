@@ -17,7 +17,7 @@
         <div class="widget-area secondary" id="secondary" role="complementary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
             <div class="sidebar-main">
                 <aside id="search-2" class="widget widget_search">
-                    <form role="search" method="get" class="search-form" action="https://springdemo.tech/">
+                    <form role="search" method="get" class="search-form" action="<?php base_url() ?>">
                         <label>
                             <span class="screen-reader-text">Search for:</span>
                             <input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s">
@@ -38,7 +38,7 @@
                     <nav role="navigation" aria-label="Recent Posts">
                         <ul>
                             <li>
-                                <a href="https://springdemo.tech/hello-world/">Hello world!</a>
+                                <a href="<?php echo base_url() ?>/hello-world/">Hello world!</a>
                             </li>
                         </ul>
 
@@ -48,7 +48,7 @@
                     <h2 class="widget-title">Recent Comments</h2>
                     <nav role="navigation" aria-label="Recent Comments">
                         <ul id="recentcomments">
-                            <li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="https://springdemo.tech/hello-world/#comment-1">Hello world!</a></li>
+                            <li class="recentcomments"><span class="comment-author-link"><a href='https://wordpress.org/' rel='external nofollow ugc' class='url'>A WordPress Commenter</a></span> on <a href="<?php echo base_url() ?>/hello-world/#comment-1">Hello world!</a></li>
                         </ul>
                     </nav>
                 </aside>
@@ -56,7 +56,7 @@
                     <h2 class="widget-title">Archives</h2>
                     <nav role="navigation" aria-label="Archives">
                         <ul>
-                            <li><a href='https://springdemo.tech/2021/05/'>May 2021</a></li>
+                            <li><a href='<?php echo base_url() ?>/2021/05/'>May 2021</a></li>
                         </ul>
 
                     </nav>
@@ -65,7 +65,7 @@
                     <h2 class="widget-title">Categories</h2>
                     <nav role="navigation" aria-label="Categories">
                         <ul>
-                            <li class="cat-item cat-item-1"><a href="https://springdemo.tech/category/uncategorized/">Uncategorized</a>
+                            <li class="cat-item cat-item-1"><a href="<?php echo base_url() ?>category/uncategorized/">Uncategorized</a>
                             </li>
                         </ul>
 
@@ -75,7 +75,7 @@
                     <h2 class="widget-title">Meta</h2>
                     <nav role="navigation" aria-label="Meta">
                         <ul>
-                            <li><a href="https://springdemo.tech/wp-login.php">Log in</a></li>
+                            <li><a href="<?php echo base_url() ?>wp-login.php">Log in</a></li>
                             <li><a href="../feed/index.html">Entries feed</a></li>
                             <li><a href="../comments/feed/index.html">Comments feed</a></li>
 
@@ -88,9 +88,6 @@
         </div><!-- #secondary -->
     </div> <!-- ast-container -->
 </div><!-- #content -->
-<!-- <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script> -->
-<!-- <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script> -->
-<!-- <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script> -->
 <script id='elementor-frontend-js-before'>
     var elementorFrontendConfig = {
         "environmentMode": {
