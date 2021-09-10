@@ -16,6 +16,7 @@
     <link rel='dns-prefetch' href='s.w.org/index.html' />
     <link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="feed/index.html" />
     <link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="comments/feed/index.html" />
+    <script src="https://kit.fontawesome.com/dace28d8ec.js" crossorigin="anonymous"></script>
     <script src="<?php echo base_url(); ?>assets/js/indexCustom.js"></script>
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/indexCustom.css">
     <link rel='stylesheet' id='elementor-frontend-css' href='<?php echo base_url(); ?>assets/css/frontend.min2072.css?ver=3.2.5' media='all' />
@@ -85,7 +86,7 @@
                                 <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                     <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                         <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                            <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 268w", srcsect="assets/img/cropped-image-removebg-preview-2-300x47.png 300w",srcset="assets/img/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                            <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 268w" , srcsect="assets/img/cropped-image-removebg-preview-2-300x47.png 300w" ,srcset="assets/img/cropped-image-removebg-preview-2.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                             <div class="ast-site-title-wrap">
                                                 <span class="site-title" itemprop="name">
                                                     <a href="http://localhost/work/drtc/" rel="home" itemprop="url"></a>
@@ -193,7 +194,7 @@
                             <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
                                 <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
                                     <div class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope">
-                                        <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42"  src="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 150w, <?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 300w,<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
+                                        <span class="site-logo-img"><a href="http://localhost/work/drtc/" class="custom-logo-link" rel="home"><img width="268" height="42" src="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png" class="custom-logo" alt="" srcset="<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 150w, <?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 300w,<?php echo base_url(); ?>assets/img/cropped-image-removebg-preview-2-268x42.png 457w" sizes="(max-width: 268px) 100vw, 268px" /></a></span>
                                         <div class="ast-site-title-wrap">
                                             <span class="site-title" itemprop="name">
                                                 <a href="http://localhost/work/drtc/" rel="home" itemprop="url">
