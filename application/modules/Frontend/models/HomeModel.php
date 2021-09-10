@@ -25,5 +25,8 @@ class HomeModel extends CI_Model
         $this->db->insert('message',$data);
       
     }
+    public function AssociateUs($data){
+        $this->db->insert('associateUs',$data);
+    }
 
 }
