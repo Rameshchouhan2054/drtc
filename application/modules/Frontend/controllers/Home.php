@@ -61,6 +61,7 @@ class Home extends CI_Controller
                 'company_name' => $this->input->post('company_name'),
                 'address' => $this->input->post('address'),
                 'fname' => $this->input->post('fname'),
+                'lname' => $this->input->post('lname'),
                 'mobile' => $this->input->post('mobile'),
                 'email' => $this->input->post('email'),
             );
