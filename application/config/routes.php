@@ -68,3 +68,4 @@ $route['requestcall']='Frontend/Home/RequestCallBack';
 $route['pickuprequest1']='Frontend/Home/Peckup_Request_Form';
 $route['message']='Frontend/Home/Message';
 $route['associate']='Frontend/Home/AssociateUs';
+$route['AssociateVehicle']='Frontend/Home/AssociateVehicle';

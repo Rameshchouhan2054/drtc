@@ -9,16 +9,14 @@ class HomeModel extends CI_Model
 
         $this->db->insert('requestcall',$data);
     }
-    public function Request_Call()
-    {
-        $query = $this->db->get('requestcall');
-        return $query;
-    }
+    // public function Request_Call()
+    // {
+    //     $query = $this->db->get('requestcall');
+    //     return $query;
+    // }
     public function Pickup_Request($data)
     {
         $this->db->insert('Pickup_Request',$data);
-        // $query = $this->db->get('Pickup_Request',$data);
-        // return $query;
     }
     public function Message($data)
     {
@@ -28,5 +26,7 @@ class HomeModel extends CI_Model
     public function AssociateUs($data){
         $this->db->insert('associateUs',$data);
     }
-
+    public function AssociateVehicle($data){
+        $this->db->insert('AssociateVehicle',$data);
+    }
 }
