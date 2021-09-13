@@ -137,8 +137,8 @@
                                         <div class="elementor-widget-wrap elementor-element-populated">
                                             <div class="elementor-element elementor-element-7148aeea elementor-widget elementor-widget-text-editor" data-id="7148aeea" data-element_type="widget" data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
-                                                    <p><span style="color: #ffffff;">Copyright@2021
-                                                            drtcindia Powered by <span style="color: #ffff00;"><a style="color: #ffff00;" href="http://springcreativehub.in/">[SpringCreativeHub]</a></span></span>
+                                                    <p><span style="color: #ffffff;">Copyright@DRTC
+                                                            <span style="color: #ffff00;"><a style="color: #ffff00;" href="#"></a></span></span>
                                                     </p>
                                                 </div>
                                             </div>
