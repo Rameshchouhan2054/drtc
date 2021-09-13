@@ -30,10 +30,9 @@ class Home extends CI_Controller
                 'country' => $this->input->post('country'),
                 'message' => $this->input->post('message'),
             );
-            $this->HomeModel->Save($data);
+            $this->HomeModel->RequestCallBack($data);
         }
-    //    redirect('drtc');
-   
+    redirect($_SERVER['HTTP_REFERER']);
     }
     public function Peckup_Request_Form()
     {

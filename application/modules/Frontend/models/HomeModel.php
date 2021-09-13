@@ -4,7 +4,7 @@ class HomeModel extends CI_Model
 {
 
    
-    public function Save($data)
+    public function RequestCallBack($data)
     {
 
         $this->db->insert('requestcall',$data);
