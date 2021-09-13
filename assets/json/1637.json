@@ -3,14 +3,14 @@
     "date": "2021-07-17T23:17:21",
     "date_gmt": "2021-07-17T23:17:21",
     "guid": {
-        "rendered": "https:\/\/localhost\/work\/drtc\/?page_id=1637"
+        "rendered": "http:\/\/localhost\/work\/drtc\/?page_id=1637"
     },
     "modified": "2021-07-17T23:29:26",
     "modified_gmt": "2021-07-17T23:29:26",
     "slug": "career",
     "status": "publish",
     "type": "page",
-    "link": "https:\/\/localhost\/work\/drtc\/career\/",
+    "link": "http:\/\/localhost\/work\/drtc\/career\/",
     "title": {
         "rendered": "Career"
     },
@@ -19,7 +19,7 @@
         "protected": false
     },
     "excerpt": {
-        "rendered": "<p>Career Fill the form below Track Order Career Form Why Choose Us Our company values are a core and integral part of each activity that we do. From the management to the colleague working on the ground all have the values imbibed.\u00a0We strongly believe in high quality and its impact on customer satisfaction. Efficient and &hellip;<\/p>\n<p class=\"read-more\"> <a class=\"\" href=\"https:\/\/localhost\/work\/drtc\/career\/\"> <span class=\"screen-reader-text\">Career<\/span> Read More &raquo;<\/a><\/p>\n",
+        "rendered": "<p>Career Fill the form below Track Order Career Form Why Choose Us Our company values are a core and integral part of each activity that we do. From the management to the colleague working on the ground all have the values imbibed.\u00a0We strongly believe in high quality and its impact on customer satisfaction. Efficient and &hellip;<\/p>\n<p class=\"read-more\"> <a class=\"\" href=\"http:\/\/localhost\/work\/drtc\/career\/\"> <span class=\"screen-reader-text\">Career<\/span> Read More &raquo;<\/a><\/p>\n",
         "protected": false
     },
     "author": 1,
@@ -32,32 +32,32 @@
     "meta": [],
     "_links": {
         "self": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/1637"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1637"
         }],
         "collection": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json"
         }],
         "about": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/types\/page"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/types\/page"
         }],
         "author": [{
             "embeddable": true,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/users\/1"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/users\/1"
         }],
         "replies": [{
             "embeddable": true,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/comments?post=1637"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/comments?post=1637"
         }],
         "version-history": [{
             "count": 19,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/1637\/revisions"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1637\/revisions"
         }],
         "predecessor-version": [{
             "id": 1659,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/1637\/revisions\/1659"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1637\/revisions\/1659"
         }],
         "wp:attachment": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/media?parent=1637"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/media?parent=1637"
         }],
         "curies": [{
             "name": "wp",
