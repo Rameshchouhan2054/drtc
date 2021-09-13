@@ -32,32 +32,32 @@
     "meta": [],
     "_links": {
         "self": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/943"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/943"
         }],
         "collection": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json"
         }],
         "about": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/types\/page"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/types\/page"
         }],
         "author": [{
             "embeddable": true,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/users\/1"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/users\/1"
         }],
         "replies": [{
             "embeddable": true,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/comments?post=943"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/comments?post=943"
         }],
         "version-history": [{
             "count": 40,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/943\/revisions"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/943\/revisions"
         }],
         "predecessor-version": [{
             "id": 1632,
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/pages\/943\/revisions\/1632"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/943\/revisions\/1632"
         }],
         "wp:attachment": [{
-            "href": "https:\/\/springdemo.tech\/wp-json\/wp\/v2\/media?parent=943"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/media?parent=943"
         }],
         "curies": [{
             "name": "wp",
