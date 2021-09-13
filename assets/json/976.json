@@ -3,14 +3,14 @@
     "date": "2021-06-29T22:31:04",
     "date_gmt": "2021-06-29T22:31:04",
     "guid": {
-        "rendered": "http:\/\/springdemo.tech\/?page_id=976"
+        "rendered": "http:\/\/localhost\/work\/drtc\/?page_id=976"
     },
     "modified": "2021-07-09T20:10:42",
     "modified_gmt": "2021-07-09T20:10:42",
     "slug": "pickup-request",
     "status": "publish",
     "type": "page",
-    "link": "http:\/\/springdemo.tech\/pickup-request\/",
+    "link": "http:\/\/localhost\/work\/drtc\/pickupRequest\/",
     "title": {
         "rendered": "Pickup Request"
     },
@@ -19,7 +19,7 @@
         "protected": false
     },
     "excerpt": {
-        "rendered": "<p>Pickup Request Fill the form below Track Order Pickup Request Form customers can fill up this form for pickup of their cargo. To track their cargo, our customers can use the application, our website or simply call our executives. Why Choose Us A descriptive paragraph that tells clients how good you are and proves that &hellip;<\/p>\n<p class=\"read-more\"> <a class=\"\" href=\"http:\/\/springdemo.tech\/pickup-request\/\"> <span class=\"screen-reader-text\">Pickup Request<\/span> Read More &raquo;<\/a><\/p>\n",
+        "rendered": "<p>Pickup Request Fill the form below Track Order Pickup Request Form customers can fill up this form for pickup of their cargo. To track their cargo, our customers can use the application, our website or simply call our executives. Why Choose Us A descriptive paragraph that tells clients how good you are and proves that &hellip;<\/p>\n<p class=\"read-more\"> <a class=\"\" href=\"http:\/\/localhost\/work\/drtc\/pickupRequest\/\"> <span class=\"screen-reader-text\">Pickup Request<\/span> Read More &raquo;<\/a><\/p>\n",
         "protected": false
     },
     "author": 1,
