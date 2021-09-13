@@ -32,7 +32,8 @@ class Home extends CI_Controller
             );
             $this->HomeModel->Save($data);
         }
-        redirect('drtc');
+    //    redirect('drtc');
+   
     }
     public function Peckup_Request_Form()
     {
@@ -151,7 +152,6 @@ class Home extends CI_Controller
                 'email' => $this->input->post('email'),
                 'brief_profile' => $this->input->post('brief_profile'),
             );
-            // print_r($data);exit;
             $this->HomeModel->AssociateVehicle($data);
         }
         redirect('attachVehicle');
