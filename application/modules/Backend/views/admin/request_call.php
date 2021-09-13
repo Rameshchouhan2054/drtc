@@ -121,6 +121,18 @@
                                         <p>Message</p>
                                     </a>
                                 </li>
+                                <li class="nav-item">
+                                    <a href="AssociateUs" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>AssociateUs</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="AssociateVehicle" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>AssociateVehicle</p>
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -157,7 +169,7 @@
                     <div class="row">
                         <div class="col-12">
                             <div class="card">
-                               
+
                                 <!-- /.card-header -->
                                 <div class="card-body">
                                     <table id="example2" class="table table-bordered table-hover">

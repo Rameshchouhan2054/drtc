@@ -5,22 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DRTC</title>
-
-  <!-- Google Font: Source Sans Pro -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"> -->
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
-  <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-  <!-- Tempusdominus Bootstrap 4 -->
   <link rel="stylesheet" href="assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-  <!-- iCheck -->
   <link rel="stylesheet" href="assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-  <!-- JQVMap -->
   <link rel="stylesheet" href="assets/plugins/jqvmap/jqvmap.min.css">
-  <!-- Theme style -->
   <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
-  <!-- overlayScrollbars -->
   <link rel="stylesheet" href="assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
   <link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
@@ -95,7 +84,7 @@
         <nav class="mt-2">
           <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item menu-open">
-              <a href="admin" class="nav-link active">
+              <a href="#" class="nav-link active">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                   Dashboard
@@ -116,13 +105,13 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="message" class="nav-link active ">
+                  <a href="message" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Message</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                <a href="AssociateUs" class="nav-link">
+                <a href="AssociateUs" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>AssociateUs</p>
                 </a>
@@ -149,7 +138,7 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1 class="m-0">Message</h1>
+              <h1 class="m-0">AssociateUs</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
@@ -161,8 +150,6 @@
         </div><!-- /.container-fluid -->
       </div>
       <!-- /.content-header -->
-
-      <!-- Main content -->
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
@@ -174,23 +161,29 @@
                 <div class="card-body">
                   <table id="example2" class="table table-bordered table-hover">
                     <thead>
-                      <tr>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Mobile</th>
+                    <tr>
+                        <th>Nmae</th>
+                        <th>Address</th>
                         <th>City</th>
-                        <th>Message</th>
+                        <th>State</th>
+                        <th>Pincode</th>
+                        <th>Mobile</th>
+                        <th>Email</th>
+                        <th>Breif_profile</th>
                       </tr>
                     </thead>
                     <tbody>
-                      <?php foreach ($message->result() as $record) : ?>
+                      <?php foreach ($associate->result() as $record) : ?>
 
                         <tr>
                           <td><?php echo empty($record->fname) ? NULL :  $record->fname; ?></td>
-                          <td><?php echo empty($record->email) ? NULL :  $record->email; ?></td>
-                          <td><?php echo empty($record->mobile) ? NULL :  $record->mobile; ?></td>
+                          <td><?php echo empty($record->address) ? NULL :  $record->address; ?></td>
                           <td><?php echo empty($record->city) ? NULL :  $record->city; ?></td>
-                          <td><?php echo empty($record->help) ? NULL :  $record->help; ?></td>
+                          <td><?php echo empty($record->state) ? NULL :  $record->state; ?></td>
+                          <td><?php echo empty($record->pincode) ? NULL :  $record->pincode; ?></td>
+                          <td><?php echo empty($record->mobile) ? NULL :  $record->mobile; ?></td>
+                          <td><?php echo empty($record->email) ? NULL :  $record->email; ?></td>
+                          <td><?php echo empty($record->brief_profile) ? NULL :  $record->brief_profile; ?></td>
                         </tr>
                       <?php endforeach; ?>
                     </tbody>
@@ -241,8 +234,8 @@
   <!-- Sparkline -->
   <script src="assets/plugins/sparklines/sparkline.js"></script>
   <!-- JQVMap -->
-  <!-- <script src="assets/plugins/jqvmap/jquery.vmap.min.js"></script>
-  <script src="assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script> -->
+  <!-- <script src="assets/plugins/jqvmap/jquery.vmap.min.js"></script> -->
+  <!-- <script src="assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script> -->
   <!-- jQuery Knob Chart -->
   <script src="assets/plugins/jquery-knob/jquery.knob.min.js"></script>
   <!-- daterangepicker -->

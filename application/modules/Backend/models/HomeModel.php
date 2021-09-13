@@ -24,5 +24,15 @@ class HomeModel extends CI_Model
         $query = $this->db->get('message');
         return $query;
     }
+    public function AssociateUs()
+    {
+        $query = $this->db->get('associateUs');
+        return $query;
+    }
+    public function AssociateVehicle()
+    {
+        $query = $this->db->get('AssociateVehicle');
+        return $query;
+    }
 
 }

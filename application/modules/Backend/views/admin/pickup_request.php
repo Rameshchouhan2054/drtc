@@ -110,6 +110,18 @@
                     <p>Message</p>
                   </a>
                 </li>
+                <li class="nav-item">
+                <a href="AssociateUs" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>AssociateUs</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="AssociateVehicle" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>AssociateVehicle</p>
+                </a>
+              </li>
               </ul>
             </li>
           </ul>

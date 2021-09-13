@@ -67,3 +67,5 @@ $route['Registration']='Backend/admin/AdminLoginController/index';
 $route['request']='Backend/admin/Home/Request';
 $route['message']='Backend/admin/Home/Message_Request';
 $route['peckup']='Backend/admin/Home/Pickup_Request';
+$route['AssociateUs']='Backend/admin/Home/AssociateUs';
+$route['AssociateVehicle']='Backend/admin/Home/AssociateVehicle';
