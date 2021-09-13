@@ -1,6 +1,6 @@
 <!-- <link rel="stylesheet" href="assets/css/post-1545.css"> -->
-<link rel='stylesheet' id='astra-theme-css-css' href='assets/css/main.min9bf7.css?ver=3.4.6' media='all' />
-<link rel="stylesheet" href="assets/css/post-6.css">
+<!-- <link rel='stylesheet' id='astra-theme-css-css' href='assets/css/main.min9bf7.css?ver=3.4.6' media='all' /> -->
+<!-- <link rel="stylesheet" href="assets/css/post-6.css"> -->
 <div id="content" class="site-content">
     <div class="ast-container">
         <div id="primary" class="content-area primary">
@@ -88,7 +88,7 @@
         </div><!-- #secondary -->
     </div> <!-- ast-container -->
 </div><!-- #content -->
-<script id='elementor-frontend-js-before'>
+<!-- <script id='elementor-frontend-js-before'>
     var elementorFrontendConfig = {
         "environmentMode": {
             "edit": false,
@@ -189,4 +189,4 @@
             "featuredImage": false
         }
     };
-</script>
+</script> -->
