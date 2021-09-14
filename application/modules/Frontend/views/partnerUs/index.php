@@ -75,8 +75,6 @@
                             <li><a href="<?php echo base_url() ?>wp-login.php">Log in</a></li>
                             <li><a href="../feed/index.html">Entries feed</a></li>
                             <li><a href="../comments/feed/index.html">Comments feed</a></li>
-
-                            <!-- <li><a href="https://wordpress.org/">WordPress.org</a></li> -->
                         </ul>
 
                     </nav>
