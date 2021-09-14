@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="assets/css/partner.css">
 <div id="content" class="site-content">
     <div class="ast-container">
         <div id="primary" class="content-area primary">

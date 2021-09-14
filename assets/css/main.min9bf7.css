@@ -1186,7 +1186,7 @@ body {
 }
 
 #primary {
-    margin: 4em 0
+    margin: 4em 0 !important
 }
 
 .ast-separate-container {
@@ -1194,7 +1194,7 @@ body {
 }
 
 .ast-separate-container #primary {
-    padding: 4em 0;
+    padding: 4em 0 !important;
     margin: 0;
     border: 0
 }
