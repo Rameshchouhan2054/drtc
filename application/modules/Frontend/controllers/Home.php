@@ -6,21 +6,25 @@ class Home extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('HomeModel');
+        // $this->load->helper('form');
+        $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
+        $this->load->model('HomeModel');
+       
     }
     public function RequestCallBack()
     {
-        $this->form_validation->set_rules('fname', 'FName', 'trim|required');
-        $this->form_validation->set_rules('lname', 'LName', 'trim|required');
+        $this->form_validation->set_rules('fname', 'FirstName', 'trim|required');
+        $this->form_validation->set_rules('lname', 'LastName', 'trim|required');
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('mobile', 'Mobile', 'trim|required|regex_match[/^[0-9]{10}$/]');
         $this->form_validation->set_rules('city', 'City', 'trim|required');
         $this->form_validation->set_rules('country', 'Country', 'trim|required');
         $this->form_validation->set_rules('message', 'Message', 'trim|required');
         if ($this->form_validation->run() == false) {
-            $this->load->view('home/index.php');
+            $this->load->view('Frontend/index.php');
         } else {
+           
             $data = array(
                 'fname' => $this->input->post('fname'),
                 'lname' => $this->input->post('lname'),
@@ -31,8 +35,8 @@ class Home extends CI_Controller
                 'message' => $this->input->post('message'),
             );
             $this->HomeModel->RequestCallBack($data);
+            redirect($_SERVER['HTTP_REFERER']);
         }
-    redirect($_SERVER['HTTP_REFERER']);
     }
     public function Peckup_Request_Form()
     {
@@ -66,8 +70,8 @@ class Home extends CI_Controller
                 'email' => $this->input->post('email'),
             );
             $this->HomeModel->Pickup_Request($data);
+            redirect('pickupRequest');
         }
-        redirect('pickupRequest');
     }
     public function Message()
     {
@@ -91,8 +95,9 @@ class Home extends CI_Controller
                 'help' => $this->input->post('help'),
             );
             $this->HomeModel->Message($data);
+            redirect('contactUs');
         }
-        redirect('contactUs');
+       
     }
     public function AssociateUs()
     {
@@ -120,8 +125,9 @@ class Home extends CI_Controller
                 'brief_profile' => $this->input->post('brief_profile'),
             );
             $this->HomeModel->AssociateUs($data);
+            redirect('associateUs');
         }
-        redirect('associateUs');
+       
     }
     public function AssociateVehicle()
     {
@@ -152,8 +158,9 @@ class Home extends CI_Controller
                 'brief_profile' => $this->input->post('brief_profile'),
             );
             $this->HomeModel->AssociateVehicle($data);
+            redirect('attachVehicle');
         }
-        redirect('attachVehicle');
+        
     }
     function index()
     {

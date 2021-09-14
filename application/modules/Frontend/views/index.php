@@ -197,7 +197,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-a89c81a elementor-widget elementor-widget-image" data-id="a89c81a" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/setting-icon.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/setting-icon.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-dc7d961 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="dc7d961" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -220,7 +221,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-6a90f1a elementor-widget elementor-widget-image" data-id="6a90f1a" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/rotor.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/rotor.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-281c823 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="281c823" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -243,7 +245,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-65eb4f6 elementor-widget elementor-widget-image" data-id="65eb4f6" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/shocks.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/shocks.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-8cf7e34 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="8cf7e34" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -271,7 +274,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-fbd3dcd elementor-widget elementor-widget-image" data-id="fbd3dcd" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/system-inside.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/system-inside.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-51d3382 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="51d3382" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -294,7 +298,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-12f6e18 elementor-widget elementor-widget-image" data-id="12f6e18" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/ac-repairs.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/ac-repairs.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-bb4826a elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="bb4826a" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -318,7 +323,8 @@ include 'includes/header.php';
                                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                                 <div class="elementor-element elementor-element-0652a1c elementor-widget elementor-widget-image" data-id="0652a1c" data-element_type="widget" data-widget_type="image.default">
                                                                     <div class="elementor-widget-container">
-                                                                        <img width="96" height="96" src="assets/img/tyre-service.png" class="attachment-large size-large" alt="" loading="lazy" /> </div>
+                                                                        <img width="96" height="96" src="assets/img/tyre-service.png" class="attachment-large size-large" alt="" loading="lazy" />
+                                                                    </div>
                                                                 </div>
                                                                 <div class="elementor-element elementor-element-bcfa6b6 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="bcfa6b6" data-element_type="widget" data-widget_type="image-box.default">
                                                                     <div class="elementor-widget-container">
@@ -485,50 +491,49 @@ include 'includes/header.php';
                                                         <h4 class="elementor-heading-title elementor-size-default">
                                                             Request Call Back</h4>
                                                     </div>
-                                                </div>
-                                                <div class="elementor-element elementor-element-c6dcd6d elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-shortcode">
-                                                            <div class="wpforms-container wpforms-container-full" id="wpforms-5">
+                                                    <div class="row">
+                                                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                                    </div>
 
-                                                                <form id="" class="wpforms-validate wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
-                                                                    <noscript class="wpforms-error-noscript">Please
-                                                                        enable JavaScript in your browser to
-                                                                        complete this form.</noscript>
-                                                                    <div class="wpforms-field-container">
-                                                                        <div id="wpforms-5-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><label class="wpforms-field-label" for="wpforms-5-field_0">Name
-                                                                                <span class="wpforms-required-label">*</span></label>
-                                                                            <div class="wpforms-field-row wpforms-field-large">
-                                                                                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                                                                                    <input type="text" id="wpforms-5-field_0" class="wpforms-field-name-first wpforms-field-required" name="fname" required><label for="wpforms-5-field_0" class="wpforms-field-sublabel after ">First</label>
-                                                                                </div>
-                                                                                <div class="wpforms-field-row-block wpforms-one-half">
-                                                                                    <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname" required><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+                                                    <div class="elementor-element elementor-element-c6dcd6d elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-shortcode">
+                                                                <div class="wpforms-container wpforms-container-full" id="wpforms-5">
+                                                                    <form  class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
+                                                                        <div class="wpforms-field-container">
+                                                                            <div  class="wpforms-field wpforms-field-name" ><label class="wpforms-field-label" for="wpforms-5-field_0">Name
+                                                                                    <span class="wpforms-required-label">*</span></label>
+                                                                                <div class="wpforms-field-row wpforms-field-large">
+                                                                                    <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                                                                                        <input type="text"  class="" value="" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
+                                                                                    </div>
+                                                                                    <div class="wpforms-field-row-block wpforms-one-half">
+                                                                                        <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_1">Email
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="email"  class="" name="email"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
+                                                                                    Number <span class="wpforms-required-label">*</span></label><input type="text" pattern="[1-9]{1}[0-9]{9}" id="wpforms-5-field_1" class="" name="mobile" maxlength="10"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_4">City
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_5">Country
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="country"></div>
+                                                                            <div  class="wpforms-field wpforms-field-textarea"><label class="wpforms-field-label" for="wpforms-5-field_2">How
+                                                                                    can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message"></textarea></div>
                                                                         </div>
-                                                                        <div id="wpforms-5-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label" for="wpforms-5-field_1">Email
-                                                                                <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-5-field_1" class="wpforms-field-large wpforms-field-required" name="email" required></div>
-                                                                        <div id="wpforms-5-field_3-container" class="wpforms-field wpforms-field-number" data-field-id="3"><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
-                                                                                Number <span class="wpforms-required-label">*</span></label><input type="number" pattern="\d*" id="wpforms-5-field_3" class="wpforms-field-large wpforms-field-required" name="mobile" required></div>
-                                                                        <div id="wpforms-5-field_4-container" class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first" data-field-id="4"><label class="wpforms-field-label" for="wpforms-5-field_4">City
-                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city" required></div>
-                                                                        <div id="wpforms-5-field_5-container" class="wpforms-field wpforms-field-text wpforms-one-half" data-field-id="5"><label class="wpforms-field-label" for="wpforms-5-field_5">Country
-                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="country" required></div>
-                                                                        <div id="wpforms-5-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-5-field_2">How
-                                                                                can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message" required></textarea></div>
-                                                                    </div>
-                                                                    <div class="wpforms-submit-container">
-                                                                        <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
-                                                                    </div>
-                                                                </form>
-                                                            </div> <!-- .wpforms-container -->
+                                                                        <div class="wpforms-submit-container">
+                                                                            <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div> <!-- .wpforms-container -->
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
                                 </section>
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-65658936 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="65658936" data-element_type="section" data-settings="{&quot;_ha_eqh_enable&quot;:false}">
                                     <div class="elementor-container elementor-column-gap-default">
