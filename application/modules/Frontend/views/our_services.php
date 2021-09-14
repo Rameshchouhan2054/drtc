@@ -427,7 +427,7 @@
                                                                             <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_1">Email
                                                                                     <span class="wpforms-required-label">*</span></label><input type="email"  class="" name="email"></div>
                                                                             <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
-                                                                                    Number <span class="wpforms-required-label">*</span></label><input type="text" pattern="[1-9]{1}[0-9]{9}" id="wpforms-5-field_1" class="" name="mobile" maxlength="10"></div>
+                                                                                    Number <span class="wpforms-required-label">*</span></label><input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" class="" name="mobile" maxlength="10"></div>
                                                                             <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_4">City
                                                                                     <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city"></div>
                                                                             <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_5">Country
