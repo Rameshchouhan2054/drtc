@@ -22,6 +22,8 @@ class AdminDashboard extends CI_Controller
         $data['request'] = $this->HomeModel->Request_Call();
         $data['message'] = $this->HomeModel->Message();
         $data['pickup'] = $this->HomeModel->Pickup_Request();
+        $data['associate']  =$this->HomeModel->AssociateUs();
+        $data['vichle']  =$this->HomeModel->AssociateVehicle();
         $this->load->view('Backend/admin/index.php' ,$data);
     }
 }

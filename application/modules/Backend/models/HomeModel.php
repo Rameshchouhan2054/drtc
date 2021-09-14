@@ -2,13 +2,6 @@
 
 class HomeModel extends CI_Model
 {
-
-   
-    public function Save($data)
-    {
-
-        $this->db->insert('requestcall',$data);
-    }
     public function Request_Call()
     {
         $query = $this->db->get('requestcall');
