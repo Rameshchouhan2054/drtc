@@ -3,14 +3,14 @@
     "date": "2021-07-09T19:56:14",
     "date_gmt": "2021-07-09T19:56:14",
     "guid": {
-        "rendered": "https:\/\/localhost\/work\/drtc\/?page_id=1545"
+        "rendered": "http:\/\/localhost\/work\/drtc\/?page_id=1545"
     },
     "modified": "2021-07-09T19:56:15",
     "modified_gmt": "2021-07-09T19:56:15",
     "slug": "partner-us",
     "status": "publish",
     "type": "page",
-    "link": "https:\/\/localhost\/work\/drtc\/partnerUs\/",
+    "link": "http:\/\/localhost\/work\/drtc\/partnerUs\/",
     "title": {
         "rendered": "Partner Us"
     },
@@ -32,32 +32,32 @@
     "meta": [],
     "_links": {
         "self": [{
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/json\/1545"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1545"
         }],
         "collection": [{
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/json"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json"
         }],
         "about": [{
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/types\/page"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/types\/page"
         }],
         "author": [{
             "embeddable": true,
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/users\/1"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/users\/1"
         }],
         "replies": [{
             "embeddable": true,
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/comments?post=1545"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/comments?post=1545"
         }],
         "version-history": [{
             "count": 1,
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/json\/1545\/revisions"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1545\/revisions"
         }],
         "predecessor-version": [{
             "id": 1546,
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/json\/1545\/revisions\/1546"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/json\/1545\/revisions\/1546"
         }],
         "wp:attachment": [{
-            "href": "https:\/\/localhost\/work\/drtc\/assets\/media?parent=1545"
+            "href": "http:\/\/localhost\/work\/drtc\/assets\/media?parent=1545"
         }],
         "curies": [{
             "name": "wp",
