@@ -83,37 +83,17 @@
                                                                     </div>
                                                                     <div id="wpforms-1125-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-1125-field_2">Address <span class="wpforms-required-label">*</span></label><textarea id="wpforms-1125-field_2" class="wpforms-field-medium wpforms-field-required" name="address" required></textarea></div>
                                                                     <div id="wpforms-1125-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label" for="wpforms-1125-field_1">City <span class="wpforms-required-label">*</span></label><input type="text" id="" class="wpforms-field-medium wpforms-field-required" name="city" required></div>
-                                                                    <div id="wpforms-1125-field_3-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="3"><label class="wpforms-field-label" for="wpforms-1125-field_3">State <span class="wpforms-required-label">*</span></label><select id="wpforms-1125-field_3" class="" name="state" required="required">
-                                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                                            <option value="Anuranchal Pradesh">Anuranchal Pradesh</option>
-                                                                            <option value="Assam">Assam</option>
-                                                                            <option value="Bihar">Bihar</option>
-                                                                            <option value="Chhattisgarh">Chhattisgarh</option>
-                                                                            <option value="Delhi">Delhi</option>
-                                                                            <option value="Goa">Goa</option>
-                                                                            <option value="Gujrat">Gujrat</option>
-                                                                            <option value="Haryana">Haryana</option>
-                                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                                            <option value="Jammu &amp; Kashmir">Jammu &amp; Kashmir</option>
-                                                                            <option value="Jharkhand">Jharkhand</option>
-                                                                            <option value="Karnataka">Karnataka</option>
-                                                                            <option value="Kerala">Kerala</option>
-                                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                                            <option value="Maharashtra">Maharashtra</option>
-                                                                            <option value="Manipur">Manipur</option>
-                                                                            <option value="Meghalya ">Meghalya </option>
-                                                                            <option value="Mizoram">Mizoram</option>
-                                                                            <option value="Nagaland">Nagaland</option>
-                                                                            <option value="Orissa">Orissa</option>
-                                                                            <option value="Punjab">Punjab</option>
-                                                                            <option value="Rajesthan">Rajasthan</option>
-                                                                            <option value="Sikkim">Sikkim</option>
-                                                                            <option value="Tamil Nadu">Tamil Nadu</option>
-                                                                            <option value="Tripura">Tripura</option>
-                                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                                            <option value="Uttrakhand">Uttrakhand</option>
-                                                                            <option value="West Bengal ">West Bengal </option>
-                                                                        </select></div>
+                                                                    <div id="wpforms-1125-field_3-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="3"><label class="wpforms-field-label" for="wpforms-1125-field_3">State <span class="wpforms-required-label">*</span></label>
+                                                                        <select name="state"  id="wpforms-1126-field_3" class="wpforms-field-medium wpforms-field-required" >
+                                                                            <option >Select State</option>
+                                                                            <?php
+                                                                            foreach ($state as $row) {
+                                                                                echo '<option value="' . $row->state_name . '">' . $row->state_name . '</option>';
+                                                                            }                                                                           
+                                                                            ?> 
+                                                                        </select>
+                                                                        
+                                                                    </div>
                                                                     <div id="wpforms-1125-field_5-container" class="wpforms-field wpforms-field-text" data-field-id="5"><label class="wpforms-field-label" for="wpforms-1125-field_5">Pincode <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-1125-field_5" class="wpforms-field-medium wpforms-field-required" name="pincode" required></div>
                                                                     <div id="wpforms-1125-field_7-container" class="wpforms-field wpforms-field-number" data-field-id="7"><label class="wpforms-field-label" for="wpforms-1125-field_7">Numbers <span class="wpforms-required-label">*</span></label><input type="number" pattern="\d*" id="wpforms-1125-field_7" class="wpforms-field-medium wpforms-field-required" name="mobile" required></div>
                                                                     <div id="wpforms-1125-field_8-container" class="wpforms-field wpforms-field-email" data-field-id="8"><label class="wpforms-field-label" for="wpforms-1125-field_8">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-1125-field_8" class="wpforms-field-medium wpforms-field-required" name="email" required></div>
@@ -250,45 +230,45 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
-                                                    </div>
+                                                    <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                                </div>
 
-                                                    <div class="elementor-element elementor-element-c6dcd6d elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
-                                                        <div class="elementor-widget-container">
-                                                            <div class="elementor-shortcode">
-                                                                <div class="wpforms-container wpforms-container-full" id="wpforms-5">
-                                                                    <form  class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
-                                                                        <div class="wpforms-field-container">
-                                                                            <div  class="wpforms-field wpforms-field-name" ><label class="wpforms-field-label" for="wpforms-5-field_0">Name
-                                                                                    <span class="wpforms-required-label">*</span></label>
-                                                                                <div class="wpforms-field-row wpforms-field-large">
-                                                                                    <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                                                                                        <input type="text"  class="" value="" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
-                                                                                    </div>
-                                                                                    <div class="wpforms-field-row-block wpforms-one-half">
-                                                                                        <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
-                                                                                    </div>
+                                                <div class="elementor-element elementor-element-c6dcd6d elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
+                                                    <div class="elementor-widget-container">
+                                                        <div class="elementor-shortcode">
+                                                            <div class="wpforms-container wpforms-container-full" id="wpforms-5">
+                                                                <form class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
+                                                                    <div class="wpforms-field-container">
+                                                                        <div class="wpforms-field wpforms-field-name"><label class="wpforms-field-label" for="wpforms-5-field_0">Name
+                                                                                <span class="wpforms-required-label">*</span></label>
+                                                                            <div class="wpforms-field-row wpforms-field-large">
+                                                                                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                                                                                    <input type="text" class="" value="" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
+                                                                                </div>
+                                                                                <div class="wpforms-field-row-block wpforms-one-half">
+                                                                                    <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
                                                                                 </div>
                                                                             </div>
-                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_1">Email
-                                                                                    <span class="wpforms-required-label">*</span></label><input type="email"  class="" name="email"></div>
-                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
-                                                                                    Number <span class="wpforms-required-label">*</span></label><input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" class="" name="mobile" maxlength="10"></div>
-                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_4">City
-                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city"></div>
-                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_5">Country
-                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="country"></div>
-                                                                            <div  class="wpforms-field wpforms-field-textarea"><label class="wpforms-field-label" for="wpforms-5-field_2">How
-                                                                                    can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message"></textarea></div>
                                                                         </div>
-                                                                        <div class="wpforms-submit-container">
-                                                                            <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
-                                                                        </div>
-                                                                    </form>
-                                                                </div> <!-- .wpforms-container -->
-                                                            </div>
+                                                                        <div class=""><label class="wpforms-field-label" for="wpforms-5-field_1">Email
+                                                                                <span class="wpforms-required-label">*</span></label><input type="email" class="" name="email"></div>
+                                                                        <div class=""><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
+                                                                                Number <span class="wpforms-required-label">*</span></label><input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" class="" name="mobile" maxlength="10"></div>
+                                                                        <div class=""><label class="wpforms-field-label" for="wpforms-5-field_4">City
+                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city"></div>
+                                                                        <div class=""><label class="wpforms-field-label" for="wpforms-5-field_5">Country
+                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="country"></div>
+                                                                        <div class="wpforms-field wpforms-field-textarea"><label class="wpforms-field-label" for="wpforms-5-field_2">How
+                                                                                can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message"></textarea></div>
+                                                                    </div>
+                                                                    <div class="wpforms-submit-container">
+                                                                        <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
+                                                                    </div>
+                                                                </form>
+                                                            </div> <!-- .wpforms-container -->
                                                         </div>
                                                     </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

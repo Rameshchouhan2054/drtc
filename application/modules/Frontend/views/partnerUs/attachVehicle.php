@@ -80,36 +80,14 @@
                                                                     <div id="wpforms-1126-field_11-container" class="wpforms-field wpforms-field-email" data-field-id="11"><label class="wpforms-field-label" for="wpforms-1126-field_11">No. of Truck <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-1126-field_11" class="wpforms-field-medium wpforms-field-required" name="no_of_truck" required></div>
                                                                     <div id="wpforms-1126-field_12-container" class="wpforms-field wpforms-field-email" data-field-id="12"><label class="wpforms-field-label" for="wpforms-1126-field_12">Preferred Route <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-1126-field_12" class="wpforms-field-medium wpforms-field-required" name="preferred_route" required></div>
                                                                     <div id="wpforms-1126-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label" for="wpforms-1126-field_1">City <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-1126-field_1" class="wpforms-field-medium wpforms-field-required" name="city" required></div>
-                                                                    <div id="wpforms-1126-field_3-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="3"><label class="wpforms-field-label" for="wpforms-1126-field_3">State <span class="wpforms-required-label">*</span></label><select id="wpforms-1126-field_3" class="wpforms-field-medium wpforms-field-required" name="state" required="required">
-                                                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                                                            <option value="Anuranchal Pradesh">Anuranchal Pradesh</option>
-                                                                            <option value="Assam">Assam</option>
-                                                                            <option value="Bihar">Bihar</option>
-                                                                            <option value="Chhattisgarh">Chhattisgarh</option>
-                                                                            <option value="Delhi">Delhi</option>
-                                                                            <option value="Goa">Goa</option>
-                                                                            <option value="Gujrat">Gujrat</option>
-                                                                            <option value="Haryana">Haryana</option>
-                                                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                                                            <option value="Jammu &amp; Kashmir">Jammu &amp; Kashmir</option>
-                                                                            <option value="Jharkhand">Jharkhand</option>
-                                                                            <option value="Karnataka">Karnataka</option>
-                                                                            <option value="Kerala">Kerala</option>
-                                                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                                                            <option value="Maharashtra">Maharashtra</option>
-                                                                            <option value="Manipur">Manipur</option>
-                                                                            <option value="Meghalya ">Meghalya </option>
-                                                                            <option value="Mizoram">Mizoram</option>
-                                                                            <option value="Nagaland">Nagaland</option>
-                                                                            <option value="Orissa">Orissa</option>
-                                                                            <option value="Punjab">Punjab</option>
-                                                                            <option value="Rajesthan">Rajesthan</option>
-                                                                            <option value="Sikkim">Sikkim</option>
-                                                                            <option value="Tamil Nadu">Tamil Nadu</option>
-                                                                            <option value="Tripura">Tripura</option>
-                                                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                                                            <option value="Uttrakhand">Uttrakhand</option>
-                                                                            <option value="West Bengal ">West Bengal </option>
+                                                                    <div id="wpforms-1126-field_3-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="3"><label class="wpforms-field-label" for="wpforms-1126-field_3">State <span class="wpforms-required-label">*</span></label>
+                                                                    <select name="state"  id="wpforms-1126-field_3" class="wpforms-field-medium wpforms-field-required" >
+                                                                            <option >Select State</option>
+                                                                            <?php
+                                                                            foreach ($state as $row) {
+                                                                                echo '<option value="' . $row->state_name . '">' . $row->state_name . '</option>';
+                                                                            }                                                                           
+                                                                            ?>   
                                                                         </select></div>
                                                                     <div id="wpforms-1126-field_5-container" class="wpforms-field wpforms-field-text" data-field-id="5"><label class="wpforms-field-label" for="wpforms-1126-field_5">Pincode <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-1126-field_5" class="wpforms-field-medium wpforms-field-required" name="pincode" required></div>
                                                                     <div id="wpforms-1126-field_7-container" class="wpforms-field wpforms-field-number" data-field-id="7"><label class="wpforms-field-label" for="wpforms-1126-field_7">Numbers <span class="wpforms-required-label">*</span></label><input type="number" pattern="\d*" id="wpforms-1126-field_7" class="wpforms-field-medium wpforms-field-required" name="mobile" required></div>
