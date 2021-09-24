@@ -27,11 +27,12 @@
   <link rel="stylesheet" href="assets/plugins/summernote/summernote-bs4.min.css">
 </head>
 <style>
-.navbar {
-  overflow: hidden;
-  position: fixed;
+
+.headerfix{
+  width: 1280px;
   top: 0;
-  width: 100%;
+  position: fixed;
+  overflow: hidden;
 }
 </style>
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -43,7 +44,7 @@
   </div>
 
   <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand  navbar-light"  style="background-color: rgb(57 62 70);">
+  <nav class="main-header navbar headerfix navbar-expand "  style="background-color: rgb(57 62 70); ">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
@@ -91,13 +92,11 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-          <i class="fas fa-th-large"  style="color: aliceblue;"></i>
-        </a>
+      <a href="<?php 
+    echo  base_url(); ?>logout" class="" style="color: ghostwhite; font-size: 21px;">Logout</a>
       </li>
     </ul>
-    <a href="<?php 
-    // echo  base_url(); ?>logout" class="" style="color: ghostwhite; font-size: 21px;">Logout</a></h3>
+    
   </nav>
   <!-- /.navbar -->
 
