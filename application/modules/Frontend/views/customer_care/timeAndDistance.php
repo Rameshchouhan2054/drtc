@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="assets/css/post-413cda9.css?ver=1626617656">
+<link rel="stylesheet" href="assets/css/post-943.css">
 <div id="content" class="site-content">
     <div class="ast-container">
         <div id="primary" class="content-area primary">
@@ -45,9 +45,8 @@
                                             <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-9989323 elementor-widget elementor-widget-shortcode" data-id="9989323" data-element_type="widget" data-widget_type="shortcode.default">
                                                     <div class="elementor-widget-container">
-                                                        <div class="elementor-shortcode"><a class="rp-widget-link" rel="noopener" target="_blank" href="https://www.drivebestway.com/?utm_source=springdemo.tech&amp;utm_medium=wp_plugin&amp;utm_campaign=widget&amp;utm_content=attribution_link_image" data-language="en" data-currency="INR" data-measure="metric" data-default-from="Delhi" data-default-to="Jodhpur" data-show-result-length data-css="https://www.drivebestway.com/widget/v1/widget.css?tc=000000&amp;bc=ffffff&amp;pc=269adb"><img loading="lazy" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMTA1IiB3aWR0aD0iMTM1IiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ1IDM1Ij48cGF0aCBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjAuMyIgZD0iTSA0NSwxMiBDIDQ1LDUuMzgzIDM5LjYxNywwIDMzLDAgMzAuMDcyLDAgMjcuMjQ3LDEuMDc2IDI1LjA0NSwzLjAzMSAyNC42MzIsMy4zOTggMjQuNTk0LDQuMDMgMjQuOTYxLDQuNDQzIDI1LjMyOCw0Ljg1NyAyNS45Niw0Ljg5NCAyNi4zNzMsNC41MjcgMjguMjA5LDIuODk3IDMwLjU2MSwyIDMzLDIgYyA1LjUxNCwwIDEwLDQuNDg2IDEwLDEwIDAsNi44OTcgLTcuNjksMTQuNTIyIC0xMCwxNi42NTYgLTEuMzU0LC0xLjI0OCAtNC41NDksLTQuMzc2IC02Ljk2NiwtOC4xNDggLTAuMjk4LC0wLjQ2NyAtMC45MTcsLTAuNjA0IC0xLjM4MiwtMC4zMDMgLTAuNDY1LDAuMjk4IC0wLjYsMC45MTYgLTAuMzAzLDEuMzgxIDMuMjkxLDUuMTM3IDcuODExLDkuMDEzIDguMDAyLDkuMTc2IDAuMTg4LDAuMTU5IDAuNDE3LDAuMjM4IDAuNjQ4LDAuMjM4IDAuMjMsMCAwLjQ2MSwtMC4wNzkgMC42NDgsLTAuMjM4IEMgMzQuMTExLDMwLjM2NyA0NSwyMS4wMDEgNDUsMTIgWiBNIDI0LDEyIEMgMjQsNS4zODMgMTguNjE3LDAgMTIsMCA1LjM4MywwIDAsNS4zODMgMCwxMiAwLDIxLjAwMSAxMC44ODksMzAuMzY3IDExLjM1MiwzMC43NjIgMTEuNTM5LDMwLjkyMSAxMS43NywzMSAxMiwzMSAxMi4yMywzMSAxMi40NjEsMzAuOTIxIDEyLjY0OCwzMC43NjIgMTMuMTExLDMwLjM2NyAyNCwyMS4wMDEgMjQsMTIgWiBNIDEyLDI4LjY1NiBDIDkuNjg5LDI2LjUyMyAyLDE4LjkwNiAyLDEyIDIsNi40ODYgNi40ODYsMiAxMiwyIDE3LjUxNCwyIDIyLDYuNDg2IDIyLDEyIDIyLDE4Ljg5NyAxNC4zMSwyNi41MjIgMTIsMjguNjU2IFogTSAxMiw3IGMgLTIuNzU3LDAgLTUsMi4yNDMgLTUsNSAwLDIuNzU3IDIuMjQzLDUgNSw1IDIuNzU3LDAgNSwtMi4yNDMgNSwtNSAwLC0yLjc1NyAtMi4yNDMsLTUgLTUsLTUgeiBtIDAsOCBjIC0xLjY1NCwwIC0zLC0xLjM0NiAtMywtMyAwLC0xLjY1NCAxLjM0NiwtMyAzLC0zIDEuNjU0LDAgMywxLjM0NiAzLDMgMCwxLjY1NCAtMS4zNDYsMyAtMywzIHogbSAyNiwtMyBjIDAsLTIuNzU3IC0yLjI0MywtNSAtNSwtNSAtMi43NTcsMCAtNSwyLjI0MyAtNSw1IDAsMi43NTcgMi4yNDMsNSA1LDUgMi43NTcsMCA1LC0yLjI0MyA1LC01IHogbSAtOCwwIGMgMCwtMS42NTQgMS4zNDYsLTMgMywtMyAxLjY1NCwwIDMsMS4zNDYgMywzIDAsMS42NTQgLTEuMzQ2LDMgLTMsMyAtMS42NTQsMCAtMywtMS4zNDYgLTMsLTMgeiBNIDE0LjI5LDMzLjI5IEMgMTQuMTEsMzMuNDc5IDE0LDMzLjc0IDE0LDM0IGMgMCwwLjI2IDAuMTEsMC41MiAwLjI5LDAuNzEgMC4xOSwwLjE4IDAuNDUsMC4yOSAwLjcxLDAuMjkgMC4yNiwwIDAuNTIsLTAuMTEgMC43LC0wLjI5IDAuMTksLTAuMTkgMC4zLC0wLjQ0IDAuMywtMC43MSAwLC0wLjI2IC0wLjExLC0wLjUyMSAtMC4yOSwtMC43MSAtMC4zOCwtMC4zNyAtMS4wNCwtMC4zNyAtMS40MiwwIHogbSAtNSwwIEMgOS4xMSwzMy40NzkgOSwzMy43NCA5LDM0IDksMzQuMjYgOS4xMSwzNC41MiA5LjI5LDM0LjcxIDkuNDgsMzQuODkgOS43NCwzNSAxMCwzNSAxMC4yNiwzNSAxMC41MiwzNC44OSAxMC43MSwzNC43MSAxMC44OSwzNC41MiAxMSwzNC4yNiAxMSwzNCBjIDAsLTAuMjYgLTAuMTEsLTAuNTIxIC0wLjI5LC0wLjcxIC0wLjM3LC0wLjM3IC0xLjAzLC0wLjM4IC0xLjQyLDAgeiBtIDEwLDAgQyAxOS4xMSwzMy40NzkgMTksMzMuNzQgMTksMzQgYyAwLDAuMjYgMC4xMSwwLjUyIDAuMjksMC43MSAwLjE5LDAuMTggMC40NSwwLjI5IDAuNzEsMC4yOSAwLjI2LDAgMC41MiwtMC4xMSAwLjcxLC0wLjI5IEMgMjAuODksMzQuNTIgMjEsMzQuMjYgMjEsMzQgYyAwLC0wLjI2IC0wLjExLC0wLjUyMSAtMC4yOSwtMC43MSAtMC4zOCwtMC4zNyAtMS4wNCwtMC4zNyAtMS40MiwwIHogbSAxMCwwIEMgMjkuMTA5LDMzLjQ3OSAyOSwzMy43NCAyOSwzNCBjIDAsMC4yNiAwLjEwOSwwLjUyIDAuMjksMC43MSAwLjE5LDAuMTggMC40NSwwLjI5IDAuNzEsMC4yOSAwLjI2LDAgMC41MiwtMC4xMSAwLjcxLC0wLjI5IEMgMzAuODkxLDM0LjUyIDMxLDM0LjI2IDMxLDM0IGMgMCwtMC4yNiAtMC4xMDksLTAuNTIxIC0wLjI5LC0wLjcxIC0wLjM4LC0wLjM3IC0xLjA0LC0wLjM3IC0xLjQyLDAgeiBtIDUsMCBDIDM0LjEwOSwzMy40NzkgMzQsMzMuNzQgMzQsMzQgYyAwLDAuMjYgMC4xMDksMC41MiAwLjI5LDAuNzEgMC4xOSwwLjE4IDAuNDUsMC4yOSAwLjcxLDAuMjkgMC4yNiwwIDAuNTIsLTAuMTEgMC43MSwtMC4yOSBDIDM1Ljg5MSwzNC41MiAzNiwzNC4yNiAzNiwzNCBjIDAsLTAuMjYgLTAuMTA5LC0wLjUyMSAtMC4yOSwtMC43MSAtMC4zOCwtMC4zNyAtMS4wNCwtMC4zNyAtMS40MiwwIHogbSAtMTAsMCBDIDI0LjEwOSwzMy40NzkgMjQsMzMuNzQgMjQsMzQgYyAwLDAuMjcgMC4xMDksMC41MjkgMC4yOSwwLjcxIDAuMTksMC4xOCAwLjQ1LDAuMjkgMC43MSwwLjI5IDAuMjYsMCAwLjUyLC0wLjExIDAuNjk5LC0wLjI5IEMgMjUuODksMzQuNTIgMjYsMzQuMjcgMjYsMzQgYyAwLC0wLjI2IC0wLjEwOSwtMC41MjEgLTAuMjksLTAuNzEgLTAuMzgsLTAuMzcgLTEuMDQsLTAuMzcgLTEuNDIsMCB6Ii8+PC9zdmc+" height="16px" width="21px" alt="https://www.drivebestway.com" /></a>
-                                                            <script async="async" src="assets/js/client.js">
-                                                            </script>
+                                                        <div class="elementor-shortcode"><a class="rp-widget-link" rel="noopener" target="_blank" href="https://www.drivebestway.com/" data-language="en" data-currency="INR" data-measure="metric" data-default-from="Delhi" data-default-to="Jodhpur" data-css="https://www.drivebestway.com/widget/v1/widget.css?pc=269adb&bc=ffffff&tc=000000" data-show-result-length data-show-result-driving-time data-show-result-map></a>
+                                                            <script async="async" src="<?php echo base_url() ?>assets/js/client.js"></script>
                                                             <style>
                                                                 .rp-widget-link-container {
                                                                     text-align: right;
@@ -203,45 +202,46 @@
                                                             Request Call Back</h4>
                                                     </div>
                                                 </div>
-                                                <div class="elementor-element elementor-element-c117a8c elementor-widget elementor-widget-shortcode" data-id="c117a8c" data-element_type="widget" data-widget_type="shortcode.default">
-                                                    <div class="elementor-widget-container">
-                                                        <div class="elementor-shortcode">
-                                                            <div class="wpforms-container wpforms-container-full" id="wpforms-5">
-                                                                <form id="wpforms-form-5" class="wpforms-validate wpforms-form" data-formid="5" method="post" enctype="multipart/form-data" action="https://springdemo.tech/time-and-distancecalculator/" data-token="e0d9cb18a0c03987b66546af0f7066f5">
-                                                                    <noscript class="wpforms-error-noscript">Please
-                                                                        enable JavaScript in your browser to
-                                                                        complete this form.</noscript>
-                                                                    <div class="wpforms-field-container">
-                                                                        <div id="wpforms-5-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><label class="wpforms-field-label" for="wpforms-5-field_0">Name
-                                                                                <span class="wpforms-required-label">*</span></label>
-                                                                            <div class="wpforms-field-row wpforms-field-large">
-                                                                                <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                                                                                    <input type="text" id="wpforms-5-field_0" class="wpforms-field-name-first wpforms-field-required" name="wpforms[fields][0][first]" required><label for="wpforms-5-field_0" class="wpforms-field-sublabel after ">First</label>
-                                                                                </div>
-                                                                                <div class="wpforms-field-row-block wpforms-one-half">
-                                                                                    <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="wpforms[fields][0][last]" required><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+                                                <div class="row">
+                                                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                                    </div>
+
+                                                    <div class="elementor-element elementor-element-c6dcd6d elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
+                                                        <div class="elementor-widget-container">
+                                                            <div class="elementor-shortcode">
+                                                                <div class="wpforms-container wpforms-container-full" id="wpforms-5">
+                                                                    <form  class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
+                                                                        <div class="wpforms-field-container">
+                                                                            <div  class="wpforms-field wpforms-field-name" ><label class="wpforms-field-label" for="wpforms-5-field_0">Name
+                                                                                    <span class="wpforms-required-label">*</span></label>
+                                                                                <div class="wpforms-field-row wpforms-field-large">
+                                                                                    <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
+                                                                                        <input type="text"  class="" value="" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
+                                                                                    </div>
+                                                                                    <div class="wpforms-field-row-block wpforms-one-half">
+                                                                                        <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_1">Email
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="email"  class="" name="email"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
+                                                                                    Number <span class="wpforms-required-label">*</span></label><input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" class="" name="mobile" maxlength="10"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_4">City
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="city"></div>
+                                                                            <div  class=""><label class="wpforms-field-label" for="wpforms-5-field_5">Country
+                                                                                    <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="country"></div>
+                                                                            <div  class="wpforms-field wpforms-field-textarea"><label class="wpforms-field-label" for="wpforms-5-field_2">How
+                                                                                    can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message"></textarea></div>
                                                                         </div>
-                                                                        <div id="wpforms-5-field_1-container" class="wpforms-field wpforms-field-email" data-field-id="1"><label class="wpforms-field-label" for="wpforms-5-field_1">Email
-                                                                                <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-5-field_1" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][1]" required></div>
-                                                                        <div id="wpforms-5-field_3-container" class="wpforms-field wpforms-field-number" data-field-id="3"><label class="wpforms-field-label" for="wpforms-5-field_3">Phone
-                                                                                Number <span class="wpforms-required-label">*</span></label><input type="number" pattern="\d*" id="wpforms-5-field_3" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][3]" required></div>
-                                                                        <div id="wpforms-5-field_4-container" class="wpforms-field wpforms-field-text wpforms-one-half wpforms-first" data-field-id="4"><label class="wpforms-field-label" for="wpforms-5-field_4">City
-                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_4" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][4]" required></div>
-                                                                        <div id="wpforms-5-field_5-container" class="wpforms-field wpforms-field-text wpforms-one-half" data-field-id="5"><label class="wpforms-field-label" for="wpforms-5-field_5">Country
-                                                                                <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-5-field_5" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][5]" required></div>
-                                                                        <div id="wpforms-5-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-5-field_2">How
-                                                                                can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" required></textarea></div>
-                                                                    </div>
-                                                                    <div class="wpforms-submit-container">
-                                                                        <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="943"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
-                                                                    </div>
-                                                                </form>
-                                                            </div> <!-- .wpforms-container -->
+                                                                        <div class="wpforms-submit-container">
+                                                                            <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
+                                                                        </div>
+                                                                    </form>
+                                                                </div> <!-- .wpforms-container -->
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>

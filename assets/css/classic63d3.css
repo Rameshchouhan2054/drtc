@@ -12,28 +12,32 @@
   position: absolute;
   z-index: 10000;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
+
 /**
  *
  */
 .picker[aria-hidden="true"] {
-   display: none;
+  display: none;
 }
+
 /**
  * The picker input element.
  */
 .picker__input {
   cursor: default;
 }
+
 /**
  * When the picker is opened, the input element is “activated”.
  */
 .picker__input.picker__input--active {
   border-color: #0089ec;
 }
+
 /**
  * The holder is the only “scrollable” top-level container element.
  */
@@ -48,24 +52,26 @@
 .picker {
   width: 100%;
 }
+
 /**
  * The holder is the base of the picker.
  */
 
 
-.picker__holder{
+.picker__holder {
   width: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: fixed;
   top: 0px;
   left: 0px;
- -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   -moz-opacity: 0;
   opacity: 0;
   background: #ffffff;
 }
+
 @media (min-width: 812px) {
   .picker__holder {
     position: absolute;
@@ -80,11 +86,12 @@
     max-height: 0;
 
     -webkit-transform: translateY(-1em) perspective(600px) rotateX(10deg);
-            transform: translateY(-1em) perspective(600px) rotateX(10deg);
+    transform: translateY(-1em) perspective(600px) rotateX(10deg);
     transition: -webkit-transform 0.15s ease-out, opacity 0.15s ease-out, max-height 0s 0.15s, border-width 0s 0.15s;
     transition: transform 0.15s ease-out, opacity 0.15s ease-out, max-height 0s 0.15s, border-width 0s 0.15s;
   }
 }
+
 /**
  * The frame and wrap work together to ensure that
  * clicks within the picker don’t reach the holder.
@@ -92,9 +99,11 @@
 .picker__frame {
   padding: 1px;
 }
+
 .picker__wrap {
   margin: -1px;
 }
+
 /**
  * When the picker opens...
  */
@@ -107,7 +116,7 @@
   border-top-width: 1px;
   border-bottom-width: 1px;
   -webkit-transform: translateY(0) perspective(600px) rotateX(0);
-          transform: translateY(0) perspective(600px) rotateX(0);
+  transform: translateY(0) perspective(600px) rotateX(0);
   transition: -webkit-transform 0.15s ease-out, opacity 0.15s ease-out, max-height 0s, border-width 0s;
   transition: transform 0.15s ease-out, opacity 0.15s ease-out, max-height 0s, border-width 0s;
   box-shadow: 0 6px 18px 1px rgba(0, 0, 0, 0.12);
