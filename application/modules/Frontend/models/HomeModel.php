@@ -29,4 +29,7 @@ class HomeModel extends CI_Model
     public function AssociateVehicle($data){
         $this->db->insert('AssociateVehicle',$data);
     }
+    public function Career($data){
+        $this->db->insert('career',$data);
+    }
 }

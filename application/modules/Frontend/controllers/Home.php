@@ -10,6 +10,7 @@ class Home extends CI_Controller
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
         $this->load->model('HomeModel');
+        $this->load->model('State_model');
        
     }
     public function RequestCallBack()
@@ -21,7 +22,7 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('city', 'City', 'trim|required');
         $this->form_validation->set_rules('country', 'Country', 'trim|required');
         $this->form_validation->set_rules('message', 'Message', 'trim|required');
-        if ($this->form_validation->run() == false) {
+        if ($this->form_validation->run() == false) {   
             $this->load->view('Frontend/index.php');
         } else {
            
@@ -111,7 +112,11 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('brief_profile', 'Brief_profile', 'trim|required');
         if ($this->form_validation->run() == false) {
-            $this->load->view('Frontend/contactUs');
+            // $this->load->view('partnerUs/associateUs');
+            $this->load->view('includes/header');
+            $data['state'] = $this->State_model->fetch_state();
+            $this->load->view('partnerUs/associateUs',$data);
+            $this->load->view('includes/footer');
         } else {
             $data = array(
                 'fname' => $this->input->post('fname'),
@@ -161,6 +166,41 @@ class Home extends CI_Controller
             redirect('attachVehicle');
         }
         
+    }
+    public function Career()
+    {
+        $this->form_validation->set_rules('fname', 'Fname', 'trim|required');
+        $this->form_validation->set_rules('lname', 'Lname', 'trim|required');
+        $this->form_validation->set_rules('address', 'Address', 'trim|required');
+        $this->form_validation->set_rules('city', 'City', 'trim|required');
+        $this->form_validation->set_rules('state', 'State', 'trim|required');
+        $this->form_validation->set_rules('pincode', 'Pincode', 'trim|required');
+        $this->form_validation->set_rules('mobile', 'Mobile', 'trim|required|regex_match[/^[0-9]{10}$/]');
+        $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
+        $this->form_validation->set_rules('job_profile', 'Job_profile', 'trim|required');
+        if ($this->form_validation->run() == false) {
+            redirect($_SERVER['HTTP_REFERER']);
+        } else {
+            $data = array(
+                'fname' => $this->input->post('fname'),
+                'lname' => $this->input->post('lname'),
+                'address' => $this->input->post('address'),
+                'city' => $this->input->post('city'),
+                'state' => $this->input->post('state'),
+                'pincode' => $this->input->post('pincode'),
+                'mobile' => $this->input->post('mobile'),
+                'email' => $this->input->post('email'),
+                'job_profile' => $this->input->post('job_profile'),
+                'experience' => $this->input->post('experience'),
+                'job_location1' => $this->input->post('job_location1'),
+                'job_location2' => $this->input->post('job_location2'),
+                'job_location3' => $this->input->post('job_location3'),
+                'salary_expected' => $this->input->post('salary_expected'),
+            );
+            $this->HomeModel->Career($data);
+            redirect($_SERVER['HTTP_REFERER']);
+        }
+       
     }
     function index()
     {

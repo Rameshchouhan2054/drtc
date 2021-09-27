@@ -77,6 +77,7 @@ $route['partnerUs'] = 'Frontend/Frontend/partnerUs';
 $route['associateUs'] = 'Frontend/Frontend/associateUs';
 $route['attachVehicle'] = 'Frontend/Frontend/attachVehicle';
 $route['career'] = 'Frontend/Frontend/career';
+$route['careerform'] = 'Frontend/Home/Career';
 $route['contactUs'] = 'Frontend/Frontend/contactUs';
 $route['requestcall']='Frontend/Home/RequestCallBack';
 $route['pickuprequest1']='Frontend/Home/Peckup_Request_Form';

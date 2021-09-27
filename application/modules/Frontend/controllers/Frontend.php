@@ -25,6 +25,7 @@ class Frontend extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('url');
+        $this->load->model('State_model');
     }
 
     /**
@@ -80,20 +81,23 @@ class Frontend extends CI_Controller
     function associateUs()
     {
         $this->load->view('includes/header');
-        $this->load->view('partnerUs/associateUs');
+        $data['state'] = $this->State_model->fetch_state();
+        $this->load->view('partnerUs/associateUs',$data);
         $this->load->view('includes/footer');
     }
     function attachVehicle()
     {
         $this->load->view('includes/header');
-        $this->load->view('partnerUs/attachVehicle');
+        $data['state'] = $this->State_model->fetch_state();
+        $this->load->view('partnerUs/attachVehicle',$data);
         $this->load->view('includes/footer');
     }
 
     function career()
     {
         $this->load->view('includes/header');
-        $this->load->view('partnerUs/career');
+        $data['state'] = $this->State_model->fetch_state();
+        $this->load->view('partnerUs/career',$data);
         $this->load->view('includes/footer');
     }
     function contactUs()
