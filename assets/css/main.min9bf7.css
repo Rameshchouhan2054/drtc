@@ -1186,7 +1186,11 @@ body {
 }
 
 #primary {
+<<<<<<< HEAD
+    margin: 4em 0 
+=======
     margin: 4em 0
+>>>>>>> 671c9ccac5818365587bb8fd655d4e8738f0951a
 }
 
 .ast-separate-container {

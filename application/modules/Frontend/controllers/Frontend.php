@@ -82,7 +82,7 @@ class Frontend extends CI_Controller
     {
         $this->load->view('includes/header');
         $data['state'] = $this->State_model->fetch_state();
-        $this->load->view('partnerUs/associateUs',$data);
+        $this->load->view('partnerUs/associateUs', $data);
         $this->load->view('includes/footer');
     }
     function attachVehicle()

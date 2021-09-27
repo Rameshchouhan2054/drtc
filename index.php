@@ -54,7 +54,14 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
-
+function p($value,$exit = 1){
+	echo "<pre>";
+	print_r($value);
+	echo "</pre>";
+	if($exit == 1){
+		exit;
+	}
+}
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
