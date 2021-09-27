@@ -143,6 +143,7 @@
                     <div class="row">
                         <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                     </div>
+                    <p style="color: green;"><?php  echo empty($message) ? "" :  $message ?></p>
 
                     <div class="elementor-element elementor-element-c6dcd6d  elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
                         <div class="elementor-widget-container">

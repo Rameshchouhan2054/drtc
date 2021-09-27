@@ -68,7 +68,6 @@
         </div><!-- #primary -->
     </div> <!-- ast-container -->
 </div><!-- #content -->
-<?php  ?>
 <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
 <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script>
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>

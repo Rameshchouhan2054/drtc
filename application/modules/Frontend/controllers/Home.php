@@ -36,7 +36,8 @@ class Home extends CI_Controller
                 'message' => $this->input->post('message'),
             );
             $this->HomeModel->RequestCallBack($data);
-            redirect($_SERVER['HTTP_REFERER']);
+                $data['message'] = "Data SuccessFully Saved"; 
+                $this->load->view('index',$data);
         }
     }
     public function Peckup_Request_Form()
