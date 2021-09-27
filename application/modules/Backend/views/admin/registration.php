@@ -41,7 +41,7 @@
                             </div>
                             <div class="input-group mb-2">
                                 <div class="input-group-prepend">
-                                    <div class="input-group-text"><i class="fas fa-user"></i></div>
+                                    <div class="input-group-text"><i class="fas fa-mobile"></i></div>
                                 </div>
                                 <input type="text" class="form-control" name="mobile" placeholder="mobile" maxlength="10">
                             </div>
