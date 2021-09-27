@@ -29,29 +29,38 @@ class AdminLoginController extends CI_Controller
 
     public function register_user()
     {
-        $admin = array(
+        $this->form_validation->set_rules('name', 'Name', 'trim|required|max_length[128]');
+        $this->form_validation->set_rules('mobile', 'Mobile', 'trim|required|regex_match[/^[0-9]{10}$/]');
+        $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
+        $this->form_validation->set_rules('password', 'Password', 'trim|required');
+        if($this->form_validation->run() == false){
+            $this->load->view('admin/registration');
+        }else{ $admin = array(
             'name' => $this->input->post('name'),
             'mobile' => $this->input->post('mobile'),
-            'password' => md5($this->input->post('password')),
             'email' => $this->input->post('email'),
+            'password' => md5($this->input->post('password')),
+            
         );
         $email_check = $this->AdminLoginModel->email_check($admin['email']);
 
         if ($email_check) {
+           
             $this->AdminLoginModel->register_user($admin);
-            echo 'success_msg', 'Registered successfully.Now login to your account.';
-            redirect('login');
-        } else {
+            echo " <p style='text-align: center;color: red;'>Registered successfully.Now login to your account</p>"; 
+            $this->load->view('admin/registration');
 
-            echo  'Error occured,Try again.';
-            redirect('admin/registration');
-        }
+        } else {
+            echo " <p style='text-align: center;color: red;'>Email already Exits Use different Email</p>";  
+            $this->load->view('admin/registration');
+        }}
+       
     }
 
     public function showLoginForm()
     {
         if ($this->input->server('REQUEST_METHOD') == 'POST') {
-            $this->setValidationRules();
+            // $this->setValidationRules();
             $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
             $this->form_validation->set_rules('password', 'Password', 'trim|required');
             if ($this->form_validation->run()) {
@@ -67,17 +76,14 @@ class AdminLoginController extends CI_Controller
                     //Set user session
                     $this->setUserSession($admin);
                     $redirect_url = $this->session->userdata('redirect_to');
-                    if ($redirect_url) {
+                    if ($redirect_url) {  
                         redirect($redirect_url);
                     } else {
                         redirect(base_url('admin'));
                     }
                 } else {
-                    //Invalid credentials.
-                    $this->session->set_flashdata('error', 'Email or password incorrect');
-                    //Redirect back
-                    redirect($_SERVER['HTTP_REFERER']);
-                    exit;
+                   
+                    echo " <p style='text-align: center;color: red;'>Inccorect Email or Password</p>";  
                 }
             }
         }
@@ -105,5 +111,5 @@ class AdminLoginController extends CI_Controller
         $this->session->unset_userdata('admin');
         $this->session->unset_userdata('logged_in');
         redirect(base_url('login'));
-    }
+    } 
 }

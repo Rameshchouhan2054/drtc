@@ -66,6 +66,7 @@ $route['admin']='Backend/admin/AdminDashboard/index';
 $route['login']='Backend/admin/AdminLoginController/showLoginForm';
 $route['logout']='Backend/admin/AdminLogoutController/logout';
 $route['Registration']='Backend/admin/AdminLoginController/index';
+$route['registration']='Backend/admin/AdminLoginController/register_user';
 $route['request']='Backend/admin/Home/Request';
 $route['message']='Backend/admin/Home/Message_Request';
 $route['peckup']='Backend/admin/Home/Pickup_Request';
