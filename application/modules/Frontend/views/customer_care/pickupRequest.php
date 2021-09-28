@@ -68,13 +68,19 @@
                                                     <div class="elementor-widget-container">
                                                         <p>customers can fill up this form for pickup of their cargo. To track their cargo, our customers can use the application, our website or simply call our executives.</p>
                                                     </div>
+                                                   
                                                 </div>
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
+                                               
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-979">
-                                                            <form id="" class="wpforms-validate wpforms-form" data-formid="979" method="post" action="<?php echo base_url() ?>pickuprequest1" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
-                                                                <div class="wpforms-field-container">
-                                                                    <div id="wpforms-979-field_2-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="2"><label class="wpforms-field-label" for="wpforms-979-field_2">Source Station :</label><select id="wpforms-979-field_2" class="wpforms-field-medium" name="source_station">
+                                                            <form id="" class=" wpforms-form" method="post" action="<?php echo base_url() ?>pickuprequest" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                            <div class="row">
+                                                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                                    </div>
+                                                    <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>   
+                                                            <div class="wpforms-field-container">
+                                                                    <div id="wpforms-979-field_2-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="2"><label class="wpforms-field-label" for="wpforms-979-field_2">Source Station :</label><select id="wpforms-979-field_2" class="wpforms-field-medium" name="source_station" required>
                                                                             <option value="Delhi">Delhi</option>
                                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                                             <option value="Haryana">Haryana</option>
@@ -85,7 +91,7 @@
                                                                             <option value="Tamil Nadu">Tamil Nadu</option>
                                                                             <option value="Karnataka">Karnataka</option>
                                                                         </select></div>
-                                                                    <div id="wpforms-979-field_9-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="9"><label class="wpforms-field-label" for="wpforms-979-field_9">Destination :</label><select id="wpforms-979-field_9" class="wpforms-field-medium" name="destination">
+                                                                    <div id="wpforms-979-field_9-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="9"><label class="wpforms-field-label" for="wpforms-979-field_9">Destination :</label><select id="wpforms-979-field_9" class="wpforms-field-medium" name="destination" required>
                                                                             <option value="Delhi">Delhi</option>
                                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                                             <option value="Haryana">Haryana</option>
@@ -96,16 +102,16 @@
                                                                             <option value="Tamil Nadu">Tamil Nadu</option>
                                                                             <option value="Karnataka">Karnataka</option>
                                                                         </select></div>
-                                                                    <div id="wpforms-979-field_11-container" class="wpforms-field wpforms-field-text" data-field-id="11"><label class="wpforms-field-label" for="wpforms-979-field_11">Pickup Date &amp; Time :</label><input type="text" id="wpforms-979-field_11" class="wpforms-field-medium" name="pickup_date_time"></div>
-                                                                    <div id="wpforms-979-field_10-container" class="wpforms-field wpforms-field-textarea" data-field-id="10"><label class="wpforms-field-label" for="wpforms-979-field_10">Collection Point Address :</label><textarea id="wpforms-979-field_10" class="wpforms-field-medium" name="collection_point_address"></textarea></div>
-                                                                    <div id="wpforms-979-field_12-container" class="wpforms-field wpforms-field-text" data-field-id="12"><label class="wpforms-field-label" for="wpforms-979-field_12">Weight of the consignment :</label><input type="text" id="wpforms-979-field_12" class="wpforms-field-medium" name="weight"></div>
-                                                                    <div id="wpforms-979-field_13-container" class="wpforms-field wpforms-field-text" data-field-id="13"><label class="wpforms-field-label" for="wpforms-979-field_13">Number of articles :</label><input type="text" id="wpforms-979-field_13" class="wpforms-field-medium" name="articles_number"></div>
-                                                                    <div id="wpforms-979-field_14-container" class="wpforms-field wpforms-field-text" data-field-id="14"><label class="wpforms-field-label" for="wpforms-979-field_14">Company Name :</label><input type="text" id="wpforms-979-field_14" class="wpforms-field-medium" name="company_name"></div>
-                                                                    <div id="wpforms-979-field_15-container" class="wpforms-field wpforms-field-textarea" data-field-id="15"><label class="wpforms-field-label" for="wpforms-979-field_15">Address :</label><textarea id="wpforms-979-field_15" class="wpforms-field-medium" name="address"></textarea></div>
-                                                                    <div id="wpforms-979-field_7-container" class="wpforms-field wpforms-field-name" data-field-id="7"><label class="wpforms-field-label" for="wpforms-979-field_7">Name <span class="wpforms-required-label">*</span></label>
+                                                                    <div class="wpforms-field wpforms-field-text"><label class="wpforms-field-label" for="wpforms-979-field_11">Pickup Date &amp; Time :</label><input type="text" id="wpforms-979-field_11" class="wpforms-field-medium" name="pickup_date_time" required></div>
+                                                                    <div id="wpforms-979-field_10-container" class="wpforms-field wpforms-field-textarea" data-field-id="10"><label class="wpforms-field-label" for="wpforms-979-field_10">Collection Point Address :</label><textarea id="wpforms-979-field_10" class="wpforms-field-medium" name="collection_point_address" required></textarea></div>
+                                                                    <div id="wpforms-979-field_12-container" class="wpforms-field wpforms-field-text" data-field-id="12"><label class="wpforms-field-label" for="wpforms-979-field_12">Weight of the consignment :</label><input type="text" id="wpforms-979-field_12" class="wpforms-field-medium" name="weight" required></div>
+                                                                    <div id="wpforms-979-field_13-container" class="wpforms-field wpforms-field-text" data-field-id="13"><label class="wpforms-field-label" for="wpforms-979-field_13">Number of articles :</label><input type="text" id="wpforms-979-field_13" class="wpforms-field-medium" name="articles_number" required></div>
+                                                                    <div id="wpforms-979-field_14-container" class="wpforms-field wpforms-field-text" data-field-id="14"><label class="wpforms-field-label" for="wpforms-979-field_14">Company Name :</label><input type="text" id="wpforms-979-field_14" class="wpforms-field-medium" name="company_name" required></div>
+                                                                    <div id="wpforms-979-field_15-container" class="wpforms-field wpforms-field-textarea" data-field-id="15"><label class="wpforms-field-label" for="wpforms-979-field_15">Address :</label><textarea id="wpforms-979-field_15" class="wpforms-field-medium" name="address" required></textarea></div>
+                                                                    <div class="wpforms-field wpforms-field-name"><label class="wpforms-field-label" for="wpforms-979-field_7">Name <span class="wpforms-required-label">*</span></label>
                                                                         <div class="wpforms-field-row wpforms-field-medium">
-                                                                            <div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-979-field_7" class="wpforms-field-name-first wpforms-field-required" name="fname" required><label for="wpforms-979-field_7" class="wpforms-field-sublabel after ">First</label></div>
-                                                                            <div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-979-field_7-last" class="wpforms-field-name-last wpforms-field-required" name="lname" required><label for="wpforms-979-field_7-last" class="wpforms-field-sublabel after ">Last</label></div>
+                                                                            <div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-979-field_7" class="wpforms-field-name-first " name="fname" required><label class="wpforms-field-sublabel after ">First</label></div>
+                                                                            <div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-979-field_7-last" class="wpforms-field-name-last " name="lname" required><label class="wpforms-field-sublabel after ">Last</label></div>
                                                                         </div>
                                                                     </div>
                                                                     <div id="wpforms-979-field_4-container" class="wpforms-field wpforms-field-number" data-field-id="4"><label class="wpforms-field-label" for="wpforms-979-field_4">Mobile Number <span class="wpforms-required-label">*</span></label><input type="number" pattern="\d*" id="wpforms-979-field_4" class="wpforms-field-medium wpforms-field-required" name="mobile" required></div>
@@ -124,7 +130,7 @@
                                     <div class="elementor-container elementor-column-gap-default">
                                     </div>
                                 </section>
-                                <?php $this->load->view('requestcall.php')?>
+                                <?php $this->load->view('requestcall.php') ?>
                             </div>
                         </div>
                     </div><!-- .entry-content .clear -->

@@ -11,7 +11,6 @@ class Home extends CI_Controller
         $this->load->library('form_validation');
         $this->load->model('HomeModel');
         $this->load->model('State_model');
-       
     }
     public function RequestCallBack()
     {
@@ -22,10 +21,10 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('city', 'City', 'trim|required');
         $this->form_validation->set_rules('country', 'Country', 'trim|required');
         $this->form_validation->set_rules('message', 'Message', 'trim|required');
-        if ($this->form_validation->run() == false) {   
+        if ($this->form_validation->run() == false) {
             $this->load->view('Frontend/index.php');
         } else {
-           
+
             $data = array(
                 'fname' => $this->input->post('fname'),
                 'lname' => $this->input->post('lname'),
@@ -36,8 +35,8 @@ class Home extends CI_Controller
                 'message' => $this->input->post('message'),
             );
             $this->HomeModel->RequestCallBack($data);
-                $data['message'] = "Data SuccessFully Saved"; 
-                $this->load->view('index',$data);
+            $data['message'] = "Data SuccessFully Saved";
+            $this->load->view('index', $data);
         }
     }
     public function Peckup_Request_Form()
@@ -55,7 +54,9 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('mobile', 'Mobile', 'trim|required|regex_match[/^[0-9]{10}$/]');
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         if ($this->form_validation->run() == false) {
-            $this->load->view('home/index.php');
+            $this->load->view('includes/header.php');
+            $this->load->view('customer_care/pickupRequest.php');
+            $this->load->view('includes/footer.php');
         } else {
             $data = array(
                 'source_station' => $this->input->post('source_station'),
@@ -72,7 +73,11 @@ class Home extends CI_Controller
                 'email' => $this->input->post('email'),
             );
             $this->HomeModel->Pickup_Request($data);
-            redirect('pickupRequest');
+            $data['message'] = "Data SuccessFully Saved";
+            // $this->load->view('index', $data);
+            $this->load->view('includes/header.php');
+            $this->load->view('customer_care/pickupRequest.php',$data);
+            $this->load->view('includes/footer.php');
         }
     }
     public function Message()
@@ -85,7 +90,9 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('country', 'Country', 'trim|required');
         $this->form_validation->set_rules('help', 'Help', 'trim|required');
         if ($this->form_validation->run() == false) {
+            $this->load->view('includes/header.php');
             $this->load->view('Frontend/contactUs');
+            $this->load->view('includes/footer.php');
         } else {
             $data = array(
                 'fname' => $this->input->post('fname'),
@@ -99,7 +106,6 @@ class Home extends CI_Controller
             $this->HomeModel->Message($data);
             redirect('contactUs');
         }
-       
     }
     public function AssociateUs()
     {
@@ -113,10 +119,9 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('brief_profile', 'Brief_profile', 'trim|required');
         if ($this->form_validation->run() == false) {
-            // $this->load->view('partnerUs/associateUs');
             $this->load->view('includes/header');
             $data['state'] = $this->State_model->fetch_state();
-            $this->load->view('partnerUs/associateUs',$data);
+            $this->load->view('partnerUs/associateUs', $data);
             $this->load->view('includes/footer');
         } else {
             $data = array(
@@ -133,13 +138,15 @@ class Home extends CI_Controller
             $this->HomeModel->AssociateUs($data);
             redirect('associateUs');
         }
-       
     }
     public function AssociateVehicle()
     {
         $this->form_validation->set_rules('fname', 'Fname', 'trim|required');
         $this->form_validation->set_rules('lname', 'Lname', 'trim|required');
         $this->form_validation->set_rules('address', 'Address', 'trim|required');
+        $this->form_validation->set_rules('type_owned', 'Type_owned', 'trim|required');
+        $this->form_validation->set_rules('no_of_truck', 'no_of_truck', 'trim|required');
+        $this->form_validation->set_rules('preferred_route', 'preferred_route', 'trim|required');
         $this->form_validation->set_rules('city', 'City', 'trim|required');
         $this->form_validation->set_rules('state', 'State', 'trim|required');
         $this->form_validation->set_rules('pincode', 'Pincode', 'trim|required');
@@ -147,7 +154,9 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('brief_profile', 'Brief_profile', 'trim|required');
         if ($this->form_validation->run() == false) {
-            $this->load->view('Frontend/contactUs');
+            $this->load->view('includes/header.php');
+            $this->load->view('partnerUs/attachVehicle.php');
+            $this->load->view('includes/footer.php');
         } else {
             $data = array(
                 'fname' => $this->input->post('fname'),
@@ -166,7 +175,6 @@ class Home extends CI_Controller
             $this->HomeModel->AssociateVehicle($data);
             redirect('attachVehicle');
         }
-        
     }
     public function Career()
     {
@@ -180,7 +188,9 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('job_profile', 'Job_profile', 'trim|required');
         if ($this->form_validation->run() == false) {
-            redirect($_SERVER['HTTP_REFERER']);
+            $this->load->view('includes/header.php');
+            $this->load->view('partnerUs/career.php');
+            $this->load->view('includes/footer.php');
         } else {
             $data = array(
                 'fname' => $this->input->post('fname'),
@@ -201,7 +211,6 @@ class Home extends CI_Controller
             $this->HomeModel->Career($data);
             redirect($_SERVER['HTTP_REFERER']);
         }
-       
     }
     function index()
     {
