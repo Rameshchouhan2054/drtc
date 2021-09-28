@@ -150,7 +150,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="message" class="nav-link">
+                <a href="Message" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Message</p>
                 </a>
