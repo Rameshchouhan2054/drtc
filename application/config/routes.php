@@ -56,10 +56,10 @@ $route['translate_uri_dashes'] = FALSE;
 //  FRONTEND
 $route['networkMap'] = 'Frontend/Frontend/networkMap';
 $route['partnerUs'] = 'Frontend/Frontend/partnerUs';
-$route['associateUs'] = 'Frontend/Frontend/associateUs';
+$route['associateUs'] = 'Frontend/Frontend/AssociateUs';
 $route['attachVehicle'] = 'Frontend/Frontend/attachVehicle';
 $route['career'] = 'Frontend/Frontend/career';
-$route['careerform'] = 'Frontend/Home/Career';
+$route['Career'] = 'Frontend/Home/Career';
 $route['contactUs'] = 'Frontend/Frontend/contactUs';
 $route['requestcall']='Frontend/Home/RequestCallBack';
 $route['pickuprequest']='Frontend/Home/Peckup_Request_Form';

@@ -6,7 +6,6 @@ class Home extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        // $this->load->helper('form');
         $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
         $this->load->model('HomeModel');
@@ -74,7 +73,6 @@ class Home extends CI_Controller
             );
             $this->HomeModel->Pickup_Request($data);
             $data['message'] = "Data SuccessFully Saved";
-            // $this->load->view('index', $data);
             $this->load->view('includes/header.php');
             $this->load->view('customer_care/pickupRequest.php',$data);
             $this->load->view('includes/footer.php');
@@ -104,7 +102,10 @@ class Home extends CI_Controller
                 'help' => $this->input->post('help'),
             );
             $this->HomeModel->Message($data);
-            redirect('contactUs');
+            $data['message'] = "Message SuccessFully Send";
+            $this->load->view('includes/header.php');
+            $this->load->view('contactUs',$data);
+            $this->load->view('includes/footer.php');
         }
     }
     public function AssociateUs()
@@ -136,7 +137,11 @@ class Home extends CI_Controller
                 'brief_profile' => $this->input->post('brief_profile'),
             );
             $this->HomeModel->AssociateUs($data);
-            redirect('associateUs');
+            $data['state'] = $this->State_model->fetch_state();
+            $data['message'] = "AssociateUs form SuccessFully Send";
+            $this->load->view('includes/header.php');
+            $this->load->view('partnerUs/associateUs',$data);
+            $this->load->view('includes/footer.php');
         }
     }
     public function AssociateVehicle()
@@ -173,7 +178,11 @@ class Home extends CI_Controller
                 'brief_profile' => $this->input->post('brief_profile'),
             );
             $this->HomeModel->AssociateVehicle($data);
-            redirect('attachVehicle');
+            $data['state'] = $this->State_model->fetch_state();
+            $data['message'] = "AssociateVehicle form SuccessFully Send";
+            $this->load->view('includes/header.php');
+            $this->load->view('partnerUs/attachVehicle',$data);
+            $this->load->view('includes/footer.php');
         }
     }
     public function Career()
@@ -187,6 +196,11 @@ class Home extends CI_Controller
         $this->form_validation->set_rules('mobile', 'Mobile', 'trim|required|regex_match[/^[0-9]{10}$/]');
         $this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email|max_length[128]');
         $this->form_validation->set_rules('job_profile', 'Job_profile', 'trim|required');
+        $this->form_validation->set_rules('experience', 'experience', 'trim|required');
+        $this->form_validation->set_rules('job_location1', 'job_location1', 'trim|required');
+        $this->form_validation->set_rules('job_location2', 'job_location2', 'trim|required');
+        $this->form_validation->set_rules('job_location3', 'job_location3', 'trim|required');
+        $this->form_validation->set_rules('salary_expected', 'salary_expected', 'trim|required');
         if ($this->form_validation->run() == false) {
             $this->load->view('includes/header.php');
             $this->load->view('partnerUs/career.php');
@@ -209,32 +223,12 @@ class Home extends CI_Controller
                 'salary_expected' => $this->input->post('salary_expected'),
             );
             $this->HomeModel->Career($data);
-            redirect($_SERVER['HTTP_REFERER']);
+            $data['message'] = "Career form SuccessFully Send";
+            $data['state'] = $this->State_model->fetch_state();
+            $this->load->view('includes/header.php');
+            $this->load->view('partnerUs/career',$data);
+            $this->load->view('includes/footer.php');
         }
     }
-    function index()
-    {
-        $this->load->view('index');
-    }
-
-    function aboutUs()
-    {
-        $this->load->view('aboutUs');
-    }
-
-    function our_services()
-    {
-        $this->load->helper('url');
-
-        $this->load->view('our_services');
-    }
-
-    function timeAndDistance()
-    {
-        $this->load->view('customer_care/timeAndDistance');
-    }
-    function pickupRequest()
-    {
-        $this->load->view('customer_care/pickupRequest');
-    }
+   
 }

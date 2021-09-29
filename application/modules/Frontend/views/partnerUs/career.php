@@ -75,10 +75,11 @@
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-1646">
-                                                            <form class=" wpforms-form" method="post" action="<?php echo base_url() ?>careerform"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                            <form class=" wpforms-form" method="post" action="<?php echo base_url() ?>Career"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
                                                                 <div class="row">
                                                                     <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                                                                 </div>
+                                                                <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>
                                                                 <div class="wpforms-field-container">
                                                                     <div class="wpforms-field wpforms-field-name"><label class="wpforms-field-label">Name <span class="wpforms-required-label">*</span></label>
                                                                         <div class="wpforms-field-row wpforms-field-medium">
@@ -89,7 +90,7 @@
                                                                     <div class="wpforms-field wpforms-field-textarea"><label class="wpforms-field-label">Address <span class="wpforms-required-label">*</span></label><textarea class="wpforms-field-medium wpforms-field-required" name="address" required></textarea></div>
                                                                     <div class="wpforms-field wpforms-field-email"><label class="wpforms-field-label">City <span class="wpforms-required-label">*</span></label><input type="text" class="wpforms-field-medium wpforms-field-required" name="city" required></div>
                                                                     <div class="wpforms-field wpforms-field-select wpforms-field-select-style-classic"><label class="wpforms-field-label">State <span class="wpforms-required-label">*</span></label>
-                                                                        <select name="state" class="wpforms-field-medium wpforms-field-required">
+                                                                        <select name="state"  class="wpforms-field-medium wpforms-field-required">
                                                                             <option>Select State</option>
                                                                             <?php
                                                                             foreach ($state as $row) {
