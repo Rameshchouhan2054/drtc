@@ -247,11 +247,11 @@ input[type=range]::-webkit-slider-thumb {
 
 @media (min-width: 993px) {
     .ast-left-sidebar #secondary {
-        padding-right: 60px;
+        padding-right: 60px !important;
     }
 
     .ast-right-sidebar #secondary {
-        padding-left: 60px;
+        padding-left: 60px !important;
     }
 }
 
@@ -556,7 +556,7 @@ input[type=range]::-webkit-slider-thumb {
 
     .ast-separate-container .ast-article-post,
     .ast-separate-container .ast-article-single {
-        padding: 1.5em 2.14em;
+        padding: 1.5em 2.14em !important; 
     }
 
     .ast-separate-container #primary,
@@ -797,7 +797,7 @@ input[type="submit"]:focus {
     .ast-separate-container .ast-article-single,
     .ast-separate-container .comments-title,
     .ast-separate-container .ast-archive-description {
-        padding: 1.5em 1em;
+        padding: 1.5em 1em !important;
     }
 
     .ast-separate-container #content .ast-container {
@@ -1374,10 +1374,12 @@ input[type="submit"]:focus {
 @media (min-width:922px) {
     #primary {
         width: 70%;
+        padding-right: 60px !important;
     }
 
     #secondary {
         width: 30%;
+        padding-left: 60px !important;
     }
 }
 
@@ -1724,7 +1726,7 @@ input[type="submit"]:focus {
 
 #primary,
 #secondary {
-    width: 100%
+    /* width: 100% !important */
 }
 
 #primary {
@@ -1737,41 +1739,41 @@ input[type="submit"]:focus {
 
 .ast-separate-container #primary {
     padding: 4em 0 !important;
-    margin: 0;
-    border: 0
+    margin: 0 !important;
+    border: 0  !important
 }
 
 .ast-separate-container .site-main>.ast-row {
-    margin-left: 0;
-    margin-right: 0
+    margin-left: 0 !important;
+    margin-right: 0 !important
 }
 
 .ast-separate-container .ast-article-post,
 .ast-separate-container .ast-article-single:not(.ast-related-post) {
-    background-color: #fff
+    background-color: #fff !important
 }
 
 .ast-separate-container .ast-article-post,
 .ast-separate-container .ast-article-single {
-    border-bottom: 1px solid #eee;
-    margin: 0;
-    padding: 5.34em 6.67em
+    border-bottom: 1px solid #eee !important;
+    margin: 0 !important;
+    padding: 5.34em 6.67em !important
 }
 
 .ast-separate-container .blog-layout-1 {
-    padding: 0;
-    border-bottom: 0
+    padding: 0 !important;
+    border-bottom: 0 !important
 }
 
 .ast-separate-container .ast-article-single {
-    border-bottom: 0
+    border-bottom: 0 !important
 }
 
 @media (max-width:1200px) {
 
     .ast-separate-container .ast-article-post,
     .ast-separate-container .ast-article-single {
-        margin: 0;
-        padding: 3.34em 2.4em
+        margin: 0 !important;
+        padding: 3.34em 2.4em !important
     }
 }

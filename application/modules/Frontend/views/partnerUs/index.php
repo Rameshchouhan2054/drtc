@@ -1,9 +1,9 @@
 <link rel="stylesheet" href="assets/css/partner.css">
-<div id="content" class="site-content">
-    <div class="ast-container">
+<div id="content" class="site-content" style="background-color: #f5f5f5;">
+    <div class="ast-container" style=" padding-left: 20px;padding-right: 20px">
         <div id="primary" class="content-area primary">
             <main id="main" class="site-main">
-                <article class="post-1545 page type-page status-publish ast-article-single" id="post-1545" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
+                <article style="background-color: #fff;background-color: #fff;padding: 5.34em 6.67em; margin: 0;" class="post-1545 page type-page status-publish ast-article-single" id="post-1545" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
                     <header class="entry-header ast-no-thumbnail ast-no-meta">
                         <h1 class="entry-title" itemprop="headline">Partner Us</h1>
                     </header><!-- .entry-header -->
