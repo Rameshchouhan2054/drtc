@@ -34,7 +34,7 @@ class Home extends CI_Controller
                 'message' => $this->input->post('message'),
             );
             $this->HomeModel->RequestCallBack($data);
-            $data['message'] = "Data SuccessFully Saved";
+            $data['message'] = "RequestCallBack SuccessFully Send";
             $this->load->view('index', $data);
         }
     }
@@ -72,7 +72,7 @@ class Home extends CI_Controller
                 'email' => $this->input->post('email'),
             );
             $this->HomeModel->Pickup_Request($data);
-            $data['message'] = "Data SuccessFully Saved";
+            $data['message'] = " Pickup_Request form SuccessFully Saved";
             $this->load->view('includes/header.php');
             $this->load->view('customer_care/pickupRequest.php',$data);
             $this->load->view('includes/footer.php');
