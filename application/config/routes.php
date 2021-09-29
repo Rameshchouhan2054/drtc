@@ -52,26 +52,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'Frontend';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
-$route['drtc']='Frontend/Frontend/index';
-$route['aboutUs'] = 'Frontend/Frontend/aboutUs';
-$route['our_services'] = 'Frontend/Frontend/our_services';
-$route['customerCare'] = 'Frontend/Frontend/customer_care';
-$route['timeAndDistance'] = 'Frontend/Frontend/timeAndDistance';
-$route['pickupRequest'] = 'Frontend/Frontend/pickupRequest';
 
-
-
-//BACKEND ROUTES
-$route['admin']='Backend/admin/AdminDashboard/index';
-$route['login']='Backend/admin/AdminLoginController/showLoginForm';
-$route['logout']='Backend/admin/AdminLogoutController/logout';
-$route['Registration']='Backend/admin/AdminLoginController/index';
-$route['registration']='Backend/admin/AdminLoginController/register_user';
-$route['request']='Backend/admin/Home/Request';
-$route['Message']='Backend/admin/Home/Message_Request';
-$route['peckup']='Backend/admin/Home/Pickup_Request';
-$route['AssociateUs']='Backend/admin/Home/AssociateUs';
-$route['AssociateVehicle']='Backend/admin/Home/AssociateVehicle';
+//  FRONTEND
 $route['networkMap'] = 'Frontend/Frontend/networkMap';
 $route['partnerUs'] = 'Frontend/Frontend/partnerUs';
 $route['associateUs'] = 'Frontend/Frontend/associateUs';
@@ -84,3 +66,23 @@ $route['pickuprequest']='Frontend/Home/Peckup_Request_Form';
 $route['message']='Frontend/Home/Message';
 $route['associate']='Frontend/Home/AssociateUs';
 $route['associateVehicle']='Frontend/Home/AssociateVehicle';
+$route['drtc']='Frontend/Frontend/index';
+$route['aboutUs'] = 'Frontend/Frontend/aboutUs';
+$route['our_services'] = 'Frontend/Frontend/our_services';
+$route['customerCare'] = 'Frontend/Frontend/customer_care';
+$route['timeAndDistance'] = 'Frontend/Frontend/timeAndDistance';
+$route['pickupRequest'] = 'Frontend/Frontend/pickupRequest';
+
+//BACKEND ROUTES
+$route['admin']='Backend/admin/AdminDashboard/index';
+$route['login']='Backend/admin/AdminLoginController/showLoginForm';
+$route['logout']='Backend/admin/AdminLogoutController/logout';
+$route['Registration']='Backend/admin/AdminLoginController/index';
+$route['registration']='Backend/admin/AdminLoginController/register_user';
+$route['request']='Backend/admin/Home/Request';
+$route['Message']='Backend/admin/Home/Message_Request';
+$route['peckup']='Backend/admin/Home/Pickup_Request';
+$route['AssociateUs']='Backend/admin/Home/AssociateUs';
+$route['AssociateVehicle']='Backend/admin/Home/AssociateVehicle';
+
+
