@@ -215,13 +215,13 @@ form .error {
         },
 
         messages: {
-            fname: "Please enter your firstname",
-            lname: "Please enter your lastname",
-            mobile: "Please enter your mobile number",
-            email: "Please enter a valid email address",
-            city: "Please enter your city",
-            country: "Please enter your country",
-            message: "Please enter your message",
+            fname: "Please Enter firstname",
+            lname: "Please Enter lastname",
+            mobile: "Please Enter mobile number",
+            email: "Please Enter a valid email address",
+            city: "Please Enter city",
+            country: "Please Enter country",
+            message: "Please Enter message",
         },
 
 

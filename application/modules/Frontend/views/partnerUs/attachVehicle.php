@@ -157,17 +157,17 @@
         },
 
         messages: {
-            fname: "Please enter your firstname",
-            lname: "Please enter your lastname",
-            address: "Please enter your address",
-            type_owned: "Please enter your type_owned",
-            no_of_truck: "Please enter your no_of_truck",
-            preferred_route: "Please enter your preferred_route",
-            mobile: "Please enter your mobile number",
-            email: "Please enter a valid email address",
-            city: "Please enter your city",
-            pincode: "Please enter your pincode",
-            brief_profile: "Please enter your brief_profile",
+            fname: "Please Enter firstname",
+            lname: "Please Enter lastname",
+            address: "Please Enter address",
+            type_owned: "Please Enter type_owned",
+            no_of_truck: "Please Enter no_of_truck",
+            preferred_route: "Please Enter preferred_route",
+            mobile: "Please Enter mobile number",
+            email: "Please Enter a valid email address",
+            city: "Please Enter city",
+            pincode: "Please Enter pincode",
+            brief_profile: "Please Enter brief_profile",
         },
 
 

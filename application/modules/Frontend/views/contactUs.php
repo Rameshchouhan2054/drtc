@@ -195,13 +195,13 @@
         },
 
         messages: {
-            fname: "Please enter your firstname",
-            lname: "Please enter your lastname",
-            mobile: "Please enter your mobile number",
-            email: "Please enter a valid email address",
-            city: "Please enter your city",
-            country: "Please enter your country",
-            help: "Please enter your help",
+            fname: "Please Enter firstname",
+            lname: "Please Enter lastname",
+            mobile: "Please Enter mobile number",
+            email: "Please Enter a valid email address",
+            city: "Please Enter city",
+            country: "Please Enter country",
+            help: "Please Enter help",
         },
 
 
