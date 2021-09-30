@@ -54,6 +54,11 @@
                                         </div>
                                     </div>
                                 </section>
+                                <style>
+                                    form .error {
+                                        color: #ff0000;
+                                    }
+                                </style>
                                 <section class="elementor-section elementor-top-section elementor-element elementor-element-rex4tjm elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="rex4tjm" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
                                     <div class="elementor-background-overlay"></div>
                                     <div class="elementor-container elementor-column-gap-no">
@@ -68,19 +73,19 @@
                                                     <div class="elementor-widget-container">
                                                         <p>customers can fill up this form for pickup of their cargo. To track their cargo, our customers can use the application, our website or simply call our executives.</p>
                                                     </div>
-                                                   
+
                                                 </div>
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
-                                               
+
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-979">
-                                                            <form id="" class=" wpforms-form" method="post" action="<?php echo base_url() ?>pickuprequest" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
-                                                            <div class="row">
-                                                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
-                                                    </div>
-                                                    <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>   
-                                                            <div class="wpforms-field-container">
-                                                                    <div id="wpforms-979-field_2-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="2"><label class="wpforms-field-label" for="wpforms-979-field_2">Source Station :</label><select id="wpforms-979-field_2" class="wpforms-field-medium" name="source_station" required>
+                                                            <form id="pickup" class=" wpforms-form" method="post" action="<?php echo base_url() ?>pickuprequest" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                                <div class="row">
+                                                                    <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                                                </div>
+                                                                <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>
+                                                                <div class="wpforms-field-container">
+                                                                    <div id="" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" ><label class="wpforms-field-label" for="wpforms-979-field_2">Source Station :</label><select id="wpforms-979-field_2" class="wpforms-field-medium" name="source_station" required>
                                                                             <option value="Delhi">Delhi</option>
                                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                                             <option value="Haryana">Haryana</option>
@@ -91,7 +96,7 @@
                                                                             <option value="Tamil Nadu">Tamil Nadu</option>
                                                                             <option value="Karnataka">Karnataka</option>
                                                                         </select></div>
-                                                                    <div id="wpforms-979-field_9-container" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" data-field-id="9"><label class="wpforms-field-label" for="wpforms-979-field_9">Destination :</label><select id="wpforms-979-field_9" class="wpforms-field-medium" name="destination" required>
+                                                                    <div id="" class="wpforms-field wpforms-field-select wpforms-field-select-style-classic" ><label class="wpforms-field-label" for="wpforms-979-field_9">Destination :</label><select id="wpforms-979-field_9" class="wpforms-field-medium" name="destination" required>
                                                                             <option value="Delhi">Delhi</option>
                                                                             <option value="Andhra Pradesh">Andhra Pradesh</option>
                                                                             <option value="Haryana">Haryana</option>
@@ -144,3 +149,48 @@
 <!-- <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script> -->
 <!-- <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script> -->
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#pickup").validate({
+             
+        rules: {
+            source_station:"required",
+            destination:"required",
+            pickup_date_time:"required",
+            collection_point_address:"required",
+            weight:"required",
+            articles_number:"required",
+            company_name:"required",
+            address :"required",
+            fname: "required",
+            lname: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+        },
+
+        messages: {
+            source_station: "Please enter your source_station",
+            destination: "Please enter your destination",
+            pickup_date_time: "Please enter your pickup_date_time",
+            collection_point_address: "Please enter your collection_point_address",
+            weight: "Please enter your weight",
+            articles_number: "Please enter your articles_number",
+            company_name: "Please enter your company_name ",
+            address: "Please enter your address",
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+           
+        },
+
+
+    });
+</script>

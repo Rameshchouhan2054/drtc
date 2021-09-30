@@ -70,19 +70,25 @@
                                                         <h3 class="elementor-heading-title elementor-size-default">Associate Us Form</h3>
                                                     </div>
                                                 </div>
+                                                <style>
+                                                    form .error {
+                                                        color: #ff0000;
+                                                    }
+                                                </style>
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-1125">
-                                                            <form id="" class=" wpforms-form" method="post" action="<?php echo base_url() ?>associate" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                        <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>   
+                                                        <form id="associate" class=" wpforms-form" method="post" action="<?php echo base_url() ?>associate" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
                                                                 <div class="row">
                                                                     <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                                                                 </div>
-                                                                <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>
+                                                               
                                                                 <div class="wpforms-field-container">
                                                                     <div id="wpforms-1125-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><label class="wpforms-field-label" for="wpforms-1125-field_0">Name <span class="wpforms-required-label">*</span></label>
                                                                         <div class="wpforms-field-row wpforms-field-medium">
-                                                                            <div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="wpforms-1125-field_0" class="wpforms-field-name-first wpforms-field-required" name="fname" required><label for="wpforms-1125-field_0" class="wpforms-field-sublabel after ">First</label></div>
-                                                                            <div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="wpforms-1125-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname" required><label for="wpforms-1125-field_0-last" class="wpforms-field-sublabel after ">Last</label></div>
+                                                                            <div class="wpforms-field-row-block wpforms-first wpforms-one-half"><input type="text" id="" class="wpforms-field-name-first wpforms-field-required" name="fname" required><label for="wpforms-1125-field_0" class="wpforms-field-sublabel after ">First</label></div>
+                                                                            <div class="wpforms-field-row-block wpforms-one-half"><input type="text" id="" class="wpforms-field-name-last wpforms-field-required" name="lname" required><label for="wpforms-1125-field_0-last" class="wpforms-field-sublabel after ">Last</label></div>
                                                                         </div>
                                                                     </div>
                                                                     <div id="wpforms-1125-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label" for="wpforms-1125-field_2">Address <span class="wpforms-required-label">*</span></label><textarea id="wpforms-1125-field_2" class="wpforms-field-medium wpforms-field-required" name="address" required></textarea></div>
@@ -130,3 +136,40 @@
 <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
 <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script>
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#associate").validate({
+
+        rules: {
+
+            fname: "required",
+            lname: "required",
+            address: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            city: "required",
+            pincode: "required",
+            brief_profile:"required"
+        },
+
+        messages: {
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            address: "Please enter your address",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+            city: "Please enter your city",
+            pincode: "Please enter your pincode",
+            brief_profile: "Please enter your brief_profile",
+        },
+
+
+    });
+</script>

@@ -72,10 +72,15 @@
                                                         <h3 class="elementor-heading-title elementor-size-default">Career Form</h3>
                                                     </div>
                                                 </div>
+                                                <style>
+                                                    form .error {
+                                                        color: #ff0000;
+                                                    }
+                                                </style>
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-1646">
-                                                            <form class=" wpforms-form" method="post" action="<?php echo base_url() ?>Career"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                            <form  id="career" class=" wpforms-form" method="post" action="<?php echo base_url() ?>Career"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
                                                                 <div class="row">
                                                                     <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                                                                 </div>
@@ -152,3 +157,48 @@
 <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
 <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script>
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#career").validate({
+        rules: {  
+            fname: "required",
+            lname: "required",
+            address: "required",
+            experience: "required",
+            job_location1: "required",
+            job_location2:"required",
+            job_location3:"required",
+            salary_expected: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            city: "required",
+            pincode: "required",
+            brief_profile:"required"
+        },
+
+        messages: {
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            address: "Please enter your address",
+            experience: "Please enter your experience",
+            job_location1: "Please enter your job_location1",
+            job_location2: "Please enter your job_location2",
+            job_location3: "Please enter your job_location3",
+            salary_expected: "Please enter your salary_expected",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+            city: "Please enter your city",
+            pincode: "Please enter your pincode",
+            brief_profile: "Please enter your brief_profile",
+        },
+
+
+    });
+</script>

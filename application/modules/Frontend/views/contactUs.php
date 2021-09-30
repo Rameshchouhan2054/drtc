@@ -120,15 +120,20 @@
                                                                         <h3 class="elementor-heading-title elementor-size-default">Message me</h3>
                                                                     </div>
                                                                 </div>
+                                                                <style>
+                                                                    form .error {
+                                                                        color: #ff0000;
+                                                                    }
+                                                                </style>
                                                                 <div class="elementor-element elementor-element-3483109 elementor-widget elementor-widget-shortcode" data-id="3483109" data-element_type="widget" data-widget_type="shortcode.default">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-shortcode">
                                                                             <div class="wpforms-container wpforms-container-full" id="wpforms-5">
-                                                                                <form id="" class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>message" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                                                <form id="contact" class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>message" data-token=""><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
                                                                                     <div class="row">
                                                                                         <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                                                                                     </div>
-                                                                                    <p style="color: green;"><?php  echo empty($message) ? "" :  $message ?></p>
+                                                                                    <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>
                                                                                     <div class="wpforms-field-container">
                                                                                         <div id="wpforms-5-field_0-container" class="wpforms-field wpforms-field-name" data-field-id="0"><label class="wpforms-field-label" for="wpforms-5-field_0">Name <span class="wpforms-required-label">*</span></label>
                                                                                             <div class="wpforms-field-row wpforms-field-large">
@@ -167,3 +172,38 @@
     </div> <!-- ast-container -->
 </div><!-- #content -->
 <?php include 'includes/footer.php'; ?>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#contact").validate({
+
+        rules: {
+
+            fname: "required",
+            lname: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            city: "required",
+            country: "required",
+            help: "required"
+        },
+
+        messages: {
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+            city: "Please enter your city",
+            country: "Please enter your country",
+            help: "Please enter your help",
+        },
+
+
+    });
+</script>

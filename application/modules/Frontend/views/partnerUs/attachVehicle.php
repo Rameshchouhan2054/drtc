@@ -64,10 +64,15 @@
                                                         <h3 class="elementor-heading-title elementor-size-default">Associate Us Form</h3>
                                                     </div>
                                                 </div>
+                                                <style>
+                                                    form .error {
+                                                        color: #ff0000;
+                                                    }
+                                                </style>
                                                 <div class="elementor-element elementor-element-ffbf2e5 elementor-widget elementor-widget-wp-widget-wpforms-widget" data-id="ffbf2e5" data-element_type="widget" data-widget_type="wp-widget-wpforms-widget.default">
                                                     <div class="elementor-widget-container">
                                                         <div class="wpforms-container wpforms-container-full" id="wpforms-1126">
-                                                            <form id="" class="wpforms-form" data-formid="1126" method="post" action="<?php echo base_url() ?>associateVehicle" data-token="e0d9cb18a0c03987b66546af0f7066f5"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
+                                                            <form id="attach" class="wpforms-form" data-formid="1126" method="post" action="<?php echo base_url() ?>associateVehicle" data-token="e0d9cb18a0c03987b66546af0f7066f5"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript>
                                                                 <div class="row">
                                                                     <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
                                                                 </div>
@@ -126,3 +131,45 @@
 <script src='assets/js/effect-fade.min35d0.js?ver=1.12.1' id='jquery-effects-fade-js'></script>
 <script src='assets/js/frontend-scriptc936.js?ver=2.3.1.1' id='elementskit-framework-js-frontend-js'></script>
 <script src="assets/js/our-serviceCustom.js" id='elementor-frontend-js-before'></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#attach").validate({
+
+        rules: {  
+            fname: "required",
+            lname: "required",
+            address: "required",
+            type_owned: "required",
+            no_of_truck: "required",
+            preferred_route:"required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            city: "required",
+            pincode: "required",
+            brief_profile:"required"
+        },
+
+        messages: {
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            address: "Please enter your address",
+            type_owned: "Please enter your type_owned",
+            no_of_truck: "Please enter your no_of_truck",
+            preferred_route: "Please enter your preferred_route",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+            city: "Please enter your city",
+            pincode: "Please enter your pincode",
+            brief_profile: "Please enter your brief_profile",
+        },
+
+
+    });
+</script>

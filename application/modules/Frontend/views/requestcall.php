@@ -1,3 +1,8 @@
+<style>
+form .error {
+        color: #ff0000;
+    }
+</style>
 <section class="elementor-section elementor-top-section elementor-element elementor-element-18dxs4h elementor-element-1c65441 elementor-element-ac602a4 elementor-element-fa5a78e elementor-element-be88719 animated-fast elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="18dxs4h 1c65441 ac602a4 fa5a78e be88719" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;_ha_eqh_enable&quot;:false}">
     <div class="elementor-background-overlay"></div>
     <div class="elementor-container elementor-column-gap-no">
@@ -8,7 +13,7 @@
                         <h2 class="elementor-heading-title elementor-size-default">
                             Why Choose Us</h2>
                     </div>
-                </div> 
+                </div>
                 <div class="elementor-element elementor-element-ea76640 elementor-element-ca5794b elementor-element-247c242 elementor-element-c319173 elementor-element-5727350 elementor-widget elementor-widget-text-editor" data-id="ea76640 ca5794b 247c242 c319173 5727350" data-element_type="widget" data-widget_type="text-editor.default">
                     <div class="elementor-widget-container">
                         <p>A descriptive paragraph that tells clients how
@@ -140,25 +145,26 @@
                         <h4 class="elementor-heading-title elementor-size-default">
                             Request Call Back</h4>
                     </div>
-                    <div class="row">
-                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
-                    </div>
-                    <p style="color: green;"><?php  echo empty($message) ? "" :  $message ?></p>
+
+                    <p style="color: green;"><?php echo empty($message) ? "" :  $message ?></p>
 
                     <div class="elementor-element elementor-element-c6dcd6d  elementor-widget elementor-widget-shortcode" data-id="c6dcd6d" data-element_type="widget" data-widget_type="shortcode.default">
                         <div class="elementor-widget-container">
                             <div class="elementor-shortcode">
                                 <div class="wpforms-container wpforms-container-full" id="wpforms-5">
-                                    <form class=" wpforms-form" data-formid="5" method="post" action="<?php echo base_url() ?>requestcall">
+                                    <form class=" wpforms-form" data-formid="" method="post" name="requestcall" id="requestcall" action="<?php echo base_url() ?>requestcall">
+                                        <div class="row">
+                                            <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?></span>
+                                        </div>
                                         <div class="wpforms-field-container">
                                             <div class="wpforms-field wpforms-field-name"><label class="wpforms-field-label" for="wpforms-5-field_0">Name
                                                     <span class="wpforms-required-label">*</span></label>
                                                 <div class="wpforms-field-row wpforms-field-large">
                                                     <div class="wpforms-field-row-block wpforms-first wpforms-one-half">
-                                                        <input type="text" class="" value="" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
+                                                        <input type="text" class="" value="" id="fname" name="fname"><label for="wpforms-5-field_0" value class=" ">First</label>
                                                     </div>
                                                     <div class="wpforms-field-row-block wpforms-one-half">
-                                                        <input type="text" id="wpforms-5-field_0-last" class="wpforms-field-name-last wpforms-field-required" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
+                                                        <input type="text" id="" class=" " id="lname" name="lname"><label for="wpforms-5-field_0-last" class="wpforms-field-sublabel after ">Last</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -174,10 +180,11 @@
                                                     can I help? <span class="wpforms-required-label">*</span></label><textarea id="wpforms-5-field_2" class="wpforms-field-medium wpforms-field-required" name="message"></textarea></div>
                                         </div>
                                         <div class="wpforms-submit-container">
-                                            <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-5" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
+                                            <!-- <input type="hidden" name="wpforms[id]" value="5"><input type="hidden" name="wpforms[author]" value="1"><input type="hidden" name="wpforms[post_id]" value="1456"> -->
+                                            <button type="submit" name="" class="wpforms-submit " value="" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send">Send</button>
                                         </div>
                                     </form>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -185,3 +192,38 @@
             </div>
         </div>
 </section>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#requestcall").validate({
+
+        rules: {
+
+            fname: "required",
+            lname: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            city: "required",
+            country: "required",
+            message:"required"
+        },
+
+        messages: {
+            fname: "Please enter your firstname",
+            lname: "Please enter your lastname",
+            mobile: "Please enter your mobile number",
+            email: "Please enter a valid email address",
+            city: "Please enter your city",
+            country: "Please enter your country",
+            message: "Please enter your message",
+        },
+
+
+    });
+</script>
