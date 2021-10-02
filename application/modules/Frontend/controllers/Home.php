@@ -35,7 +35,9 @@ class Home extends CI_Controller
             );
             $this->HomeModel->RequestCallBack($data);
             $data['message'] = "RequestCallBack SuccessFully Send";
+            $this->load->view('includes/header');
             $this->load->view('index', $data);
+            $this->load->view('includes/footer');
         }
     }
     public function Peckup_Request_Form()
