@@ -19,7 +19,7 @@
          <!-- <div class="pb-2 mt-4 mb-2 border-bottom">
         <h2>CodeIgniter Login and Registration System using MySQL with Bootstrap 4</h2>
       </div>  -->
-         <form action="<?php echo base_url(); ?>login" class="remember-login-frm" id="remember-login-frm" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+         <form action="<?php echo base_url(); ?>login" class="" id="register" method="post" accept-charset="utf-8">
 
              <div class="row justify-content-center">
                  <div class="col-12 col-md-8 col-lg-6 pb-5">
@@ -46,7 +46,7 @@
                                      <div class="input-group-prepend">
                                          <div class="input-group-text"><i class="fa fa-key text-info" aria-hidden="true"></i></div>
                                      </div>
-                                     <input type="password" class="form-control" id="rpassword" name="password" placeholder="Password *" value="">
+                                     <input type="password" class="form-control" id="password" name="password" placeholder="Password *" value="">
                                  </div>
                              </div>
 
@@ -67,3 +67,25 @@
          </form>
      </div>
  </section>
+
+ <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#register").validate({
+
+        rules: {
+            email: {
+                required: true,
+                email: true
+            },
+            password: "required"
+        },
+
+        messages: {
+            email: "Please Enter a valid email address",
+            password: "Please Enter your password",
+        },
+
+
+    });
+</script>

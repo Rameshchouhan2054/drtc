@@ -212,6 +212,15 @@ hr {
 
 
 
+form .error {
+  color: #ff0000;
+}
+/* .form-control .input-group { width: 14%;} */
+.input-group>.form-control{
+width: 53%;}
+
+
+
 
 
 

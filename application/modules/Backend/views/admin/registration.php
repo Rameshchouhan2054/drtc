@@ -14,23 +14,25 @@
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/loginstyle.css">
 </head>
+
 <!-- container -->
 <section class="showcase">
     <div class="container">
-        <form action="<?php echo base_url(); ?>registration" class="remember-login-frm" id="remember-login-frm" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+        <form id="register" action="<?php echo base_url(); ?>registration" class="remember-login-frm" id="remember-login-frm" method="post" accept-charset="utf-8" enctype="multipart/form-data">
             <div class="row justify-content-center">
                 <div class=" col-md-8 col-lg-6 pb-5" style="margin-left: 236px;">
-                    <div class="row">
-                        <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?>
-                    </div>
+
                     <!--Form with header-->
-                    <div class="card  " style="width: 310px;height: 265px;">
+                    <div class="card  " style="width: 310px;">
                         <!-- <div class="card-header p-0"> -->
                         <div class="bg-login-page text-white text-center py-2">
                             <h3><i class="fas fa-user-plus"></i> Registration</h3>
                         </div>
                         <!-- </div> -->
                         <div class="card-body p-3">
+                            <div class="row">
+                                <ul style="color: #CB0000"><?php echo validation_errors('<li>', '</li>'); ?>
+                            </div>
                             <!--Body-->
                             <!-- <div class="form-group finput"> -->
                             <div class="input-group mb-2">
@@ -70,3 +72,32 @@
     </form>
     </div>
 </section>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $("#register").validate({
+
+        rules: {
+
+            name: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            mobile: {
+                required: true,
+                maxlength: 10
+            },
+            password: "required"
+        },
+
+        messages: {
+            name: "Please Enter your Username",
+            mobile: "Please Enter your mobile number",
+            email: "Please Enter a valid email address",
+            password: "Please Enter your password",
+        },
+
+
+    });
+</script>
