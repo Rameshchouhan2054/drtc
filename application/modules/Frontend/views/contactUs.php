@@ -1,12 +1,13 @@
 <?php include 'includes/header.php' ?>
 <link rel="stylesheet" href="assets/css/post-1569.css" media="all">
+<style>
+    form .error {
+        color: #ff0000;
+    }
+</style>
 <div id="content" class="site-content">
     <div class="ast-container">
-
-
         <div id="primary" class="content-area primary">
-
-
             <main id="main" class="site-main">
                 <article class="post-1569 page type-page status-publish ast-article-single" id="post-1569" itemtype="https://schema.org/CreativeWork" itemscope="itemscope">
                     <header class="entry-header ast-header-without-markup">
@@ -120,11 +121,7 @@
                                                                         <h3 class="elementor-heading-title elementor-size-default">Message me</h3>
                                                                     </div>
                                                                 </div>
-                                                                <style>
-                                                                    form .error {
-                                                                        color: #ff0000;
-                                                                    }
-                                                                </style>
+
                                                                 <div class="elementor-element elementor-element-3483109 elementor-widget elementor-widget-shortcode" data-id="3483109" data-element_type="widget" data-widget_type="shortcode.default">
                                                                     <div class="elementor-widget-container">
                                                                         <div class="elementor-shortcode">
@@ -172,38 +169,38 @@
     </div> <!-- ast-container -->
 </div><!-- #content -->
 <?php include 'includes/footer.php'; ?>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="assets/js/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    $("#contact").validate({
+    $("document").ready(function() 
+    {
+        $("#contact").validate({
+            rules: {
 
-        rules: {
-
-            fname: "required",
-            lname: "required",
-            email: {
-                required: true,
-                email: true
+                fname: "required",
+                lname: "required",
+                email: {
+                    required: true,
+                    email: true
+                },
+                mobile: {
+                    required: true,
+                    maxlength: 10
+                },
+                city: "required",
+                country: "required",
+                help: "required"
             },
-            mobile: {
-                required: true,
-                maxlength: 10
+
+            messages: {
+                fname: "Please Enter firstname",
+                lname: "Please Enter lastname",
+                mobile: "Please Enter mobile number",
+                email: "Please Enter a valid email address",
+                city: "Please Enter city",
+                country: "Please Enter country",
+                help: "Please Enter help",
             },
-            city: "required",
-            country: "required",
-            help: "required"
-        },
-
-        messages: {
-            fname: "Please Enter firstname",
-            lname: "Please Enter lastname",
-            mobile: "Please Enter mobile number",
-            email: "Please Enter a valid email address",
-            city: "Please Enter city",
-            country: "Please Enter country",
-            help: "Please Enter help",
-        },
-
-
+        });
     });
 </script>

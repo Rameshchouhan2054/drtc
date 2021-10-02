@@ -66,8 +66,8 @@
     <meta name="generator" content="WordPress 5.7.2" />
     <link rel="canonical" href="index.html" />
     <link rel='shortlink' href='index1f46.html?p=1456' />
-    <link rel="alternate" type="application/json+oembed" href="oembed/1.0/embedd9f5.json?url=https%3A%2F%2Fspringdemo.tech%2Fduplicated-home-page-7%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="oembed/1.0/embed99bd?url=https%3A%2F%2Fspringdemo.tech%2Fduplicated-home-page-7%2F&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="oembed/1.0/embedd9f5.json?url=https%3A%2F%2Flocalhost.tech%2Fduplicated-home-page-7%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="oembed/1.0/embed99bd?url=https%3A%2F%2Flocalhost.tech%2Fduplicated-home-page-7%2F&amp;format=xml" />
 </head>
 <!-- -->
 

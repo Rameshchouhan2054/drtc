@@ -75,7 +75,7 @@ var elementorFrontendConfig = {
         "landing-pages": true
     },
     "urls": {
-        "assets": "https:\/\/springdemo.tech\/wp-content\/plugins\/elementor\/assets\/"
+        "assets": "https:\/\/localhost.tech\/wp-content\/plugins\/elementor\/assets\/"
     },
     "settings": {
         "page": [],

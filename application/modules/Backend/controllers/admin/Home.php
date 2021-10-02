@@ -15,8 +15,6 @@ class Home extends CI_Controller
         $this->load->view('Backend/admin/index.php');
     }
 
-  
-
     public function Request()
     {
         $data['request'] = $this->HomeModel->Request_Call();

@@ -14,14 +14,14 @@ var option = {
     "mysticky_disable_down": "false"
 };
 var elementskit = {
-    resturl: 'https://springdemo.tech/wp-json/elementskit/v1/',
+    resturl: 'https://localhost.tech/wp-json/elementskit/v1/',
 }
 var HappyLocalize = {
-    "ajax_url": "https:\/\/springdemo.tech\/wp-admin\/admin-ajax.php",
+    "ajax_url": "https:\/\/localhost.tech\/wp-admin\/admin-ajax.php",
     "nonce": "0f7aed3e69"
 };
 var PaModulesSettings = {
-    "equalHeight_url": "https:\/\/springdemo.tech\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"
+    "equalHeight_url": "https:\/\/localhost.tech\/wp-content\/plugins\/premium-addons-for-elementor\/assets\/frontend\/min-js\/premium-eq-height.min.js"
 };
 var elementorFrontendConfig = {
     "environmentMode": {
@@ -100,7 +100,7 @@ var elementorFrontendConfig = {
         "landing-pages": true
     },
     "urls": {
-        "assets": "https:\/\/springdemo.tech\/wp-content\/plugins\/elementor\/assets\/"
+        "assets": "https:\/\/localhost.tech\/wp-content\/plugins\/elementor\/assets\/"
     },
     "settings": {
         "page": [],
@@ -201,9 +201,9 @@ var wpforms_settings = {
     "val_empty_blanks": "Please fill out all blanks.",
     "uuid_cookie": "",
     "locale": "en",
-    "wpforms_plugin_url": "https:\/\/springdemo.tech\/wp-content\/plugins\/wpforms-lite\/",
+    "wpforms_plugin_url": "https:\/\/localhost.tech\/wp-content\/plugins\/wpforms-lite\/",
     "gdpr": "",
-    "ajaxurl": "https:\/\/springdemo.tech\/wp-admin\/admin-ajax.php",
+    "ajaxurl": "https:\/\/localhost.tech\/wp-admin\/admin-ajax.php",
     "mailcheck_enabled": "1",
     "mailcheck_domains": [],
     "mailcheck_toplevel_domains": ["dev"],

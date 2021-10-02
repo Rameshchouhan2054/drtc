@@ -4,24 +4,21 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!--  -->
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/simple-line-icons.css" />
 
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/loginstyle.css">
 </head>
-
 <!-- container -->
 <section class="showcase">
     <div class="container">
         <form id="register" action="<?php echo base_url(); ?>registration" class="remember-login-frm" id="remember-login-frm" method="post" accept-charset="utf-8" enctype="multipart/form-data">
             <div class="row justify-content-center">
                 <div class=" col-md-8 col-lg-6 pb-5" style="margin-left: 236px;">
-
                     <!--Form with header-->
                     <div class="card  " style="width: 310px;">
                         <!-- <div class="card-header p-0"> -->
@@ -65,39 +62,34 @@
                         </div>
                         <span>Already Register? <a href="<?php echo base_url() ?>login">Login</a></span>
                     </div>
-
                 </div>
             </div>
-    </div>
-    </form>
+        </form>
     </div>
 </section>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="assets/js/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    $("#register").validate({
-
-        rules: {
-
-            name: "required",
-            email: {
-                required: true,
-                email: true
+    $("document").ready(function() {
+        $("#register").validate({
+            rules: {
+                name: "required",
+                email: {
+                    required: true,
+                    email: true
+                },
+                mobile: {
+                    required: true,
+                    maxlength: 10
+                },
+                password: "required"
             },
-            mobile: {
-                required: true,
-                maxlength: 10
+            messages: {
+                name: "Please Enter your Username",
+                mobile: "Please Enter your mobile number",
+                email: "Please Enter a valid email address",
+                password: "Please Enter your password",
             },
-            password: "required"
-        },
-
-        messages: {
-            name: "Please Enter your Username",
-            mobile: "Please Enter your mobile number",
-            email: "Please Enter a valid email address",
-            password: "Please Enter your password",
-        },
-
-
+        });
     });
 </script>

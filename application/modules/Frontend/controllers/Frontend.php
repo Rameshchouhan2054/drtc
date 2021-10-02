@@ -16,11 +16,7 @@
 
 class Frontend extends CI_Controller
 {
-    /**
-     * [__construct description]
-     *
-     * @method __construct
-     */
+
     public function __construct()
     {
         parent::__construct();
@@ -28,16 +24,11 @@ class Frontend extends CI_Controller
         $this->load->model('State_model');
     }
 
-    /**
-     * [index description]
-     *
-     * @method index
-     *
-     * @return [type] [description]
-     */
     public function index()
     {
+        $this->load->view('includes/header');
         $this->load->view('index');
+        $this->load->view('includes/footer');
     }
     function aboutUs()
     {
@@ -47,7 +38,6 @@ class Frontend extends CI_Controller
     function our_services()
     {
         $this->load->helper('url');
-
         $this->load->view('our_services');
     }
     function customer_care()

@@ -1,6 +1,3 @@
-<?php
-include 'includes/header.php';
-?>
 <div id="content" class="site-content">
     <div class="ast-container">
         <div id="primary" class="content-area primary">
@@ -212,8 +209,8 @@ include 'includes/header.php';
                                                                                     the service you have
                                                                                     mentioned above.</p>
                                                                             </div>
-                                                                        </div>
-                                                                    </div>
+                                                                        </div>    
+                                                                    </div> 
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -632,4 +629,3 @@ include 'includes/header.php';
         </div><!-- #primary -->
     </div> <!-- ast-container -->
 </div><!-- #content -->
-<?php include 'includes/footer.php'; ?>

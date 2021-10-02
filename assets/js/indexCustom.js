@@ -5,7 +5,7 @@ window._wpemojiSettings = {
     "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
     "svgExt": ".svg",
     "source": {
-        "concatemoji": "https:\/\/springdemo.tech\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"
+        "concatemoji": "https:\/\/localhost.tech\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.2"
     }
 };
 ! function (e, a, t) {
@@ -107,7 +107,7 @@ var chaty_settings = {
         "save_user_clicks": 0,
         "close_img": "",
         "is_mobile": 0,
-        "ajax_url": "https:\/\/springdemo.tech\/wp-admin\/admin-ajax.php",
+        "ajax_url": "https:\/\/localhost.tech\/wp-admin\/admin-ajax.php",
         "animation_class": "jump",
         "time_trigger": "yes",
         "trigger_time": "0",
@@ -121,14 +121,14 @@ var chaty_settings = {
         "has_close_button": "yes",
         "mode": "vertical"
     },
-    "ajax_url": "https:\/\/springdemo.tech\/wp-admin\/admin-ajax.php"
+    "ajax_url": "https:\/\/localhost.tech\/wp-admin\/admin-ajax.php"
 };
 
 var wbkl10n = {
     "mode": "simple",
     "phonemask": "enabled",
     "phoneformat": "(999) 999-9999",
-    "ajaxurl": "https:\/\/springdemo.tech\/wp-admin\/admin-ajax.php",
+    "ajaxurl": "https:\/\/localhost.tech\/wp-admin\/admin-ajax.php",
     "selectdatestart": "Book an appointment on or after",
     "selectdatestartbasic": "Book an appointment on",
     "selecttime": "Available time slots",
