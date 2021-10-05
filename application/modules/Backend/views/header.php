@@ -39,9 +39,9 @@
 <div class="wrapper">
 
   <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
+  <!-- <div class="preloader flex-column justify-content-center align-items-center">
     <img class="animation__shake" src="assets/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
+  </div> -->
 
   <!-- Navbar -->
   <nav class="main-header navbar headerfix navbar-expand "  style="background-color: rgb(57 62 70); ">
@@ -91,7 +91,7 @@
           <i class="fas fa-expand-arrows-alt"  style="color: aliceblue;" ></i>
         </a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item pt-1">
       <a href="<?php 
     echo  base_url(); ?>logout" class="" style="color: ghostwhite; font-size: 21px;">Logout</a>
       </li>
@@ -217,8 +217,8 @@
 <!-- AdminLTE App -->
 <script src="assets/dist/js/adminlte.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="assets/dist/js/demo.js"></script>
+<!-- <script src="assets/dist/js/demo.js"></script> -->
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="assets/dist/js/pages/dashboard.js"></script>
+<!-- <script src="assets/dist/js/pages/dashboard.js"></script> -->
 </body>
 </html>
