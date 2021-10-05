@@ -8,10 +8,10 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <!-- Custom fonts for this template -->
-    <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/simple-line-icons.css" />
     <!-- Custom styles for this template -->
     <link rel="stylesheet" href="assets/css/loginstyle.css">
+    <link rel="shortcut icon" href="#">
 </head>
 <section class="showcase">
     <div class="container">
@@ -27,7 +27,7 @@
                     <div class="card border-info rounded-0">
                         <div class="card-header p-0">
                             <div class="bg-login-page text-white text-center py-2">
-                                <h3><i class="fa fa-user"></i> Login</h3>
+                                <h3><i class="icon-user"></i> Login</h3>
                             </div>
                         </div>
                         <div class="card-body p-3">
@@ -35,7 +35,7 @@
                             <div class="form-group">
                                 <div class="input-group mb-2">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                                        <div class="input-group-text"><i class="icon-user text-info"></i></div>
                                     </div>
                                     <input type="text" class="form-control" id="email" name="email" placeholder="Email *" value="">
                                 </div>
@@ -43,7 +43,7 @@
                             <div class="form-group">
                                 <div class="input-group mb-2">
                                     <div class="input-group-prepend">
-                                        <div class="input-group-text"><i class="fa fa-key text-info" aria-hidden="true"></i></div>
+                                        <div class="input-group-text"><i class="icon-key text-info" aria-hidden="true"></i></div>
                                     </div>
                                     <input type="password" class="form-control" id="password" name="password" placeholder="Password *" value="">
                                 </div>

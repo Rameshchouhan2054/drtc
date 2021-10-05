@@ -25,16 +25,8 @@
   <link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
   <link rel="stylesheet" href="assets/plugins/summernote/summernote-bs4.min.css">
+  <link rel="shortcut icon" href="#">
 </head>
-<style>
-
-.headerfix{
-  width: 1280px;
-  top: 0;
-  position: fixed;
-  overflow: hidden;
-}
-</style>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 
@@ -44,7 +36,7 @@
   </div> -->
 
   <!-- Navbar -->
-  <nav class="main-header navbar headerfix navbar-expand "  style="background-color: rgb(57 62 70); ">
+  <nav class="main-header navbar headerfix navbar-expand fixed-top"  style="background-color: rgb(57 62 70); ">
     <!-- Left navbar links -->
     <ul class="navbar-nav">
       <li class="nav-item">
